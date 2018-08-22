@@ -1,0 +1,1595 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.phpactiverecord.xyz/projects/main/wiki/Associations/
+Subject: PHP ActiveRecord - Associations - An easy to use ORM for PHP
+Date: Sun, 12 Aug 2018 14:50:53 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----"
+
+
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/html
+Content-ID: <frame-4C13F9CBF6D7EAFD365FC3FB2483A037@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/projects/main/wiki/Associations/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" data-cf-welcome-bar-visibility="visible"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>PHP ActiveRecord - Associations - An easy to use ORM for PHP</title>
+		<link rel="canonical" href="http://www.phpactiverecord.xyz/projects/main/wiki/Associations">
+		
+		<meta name="keywords" content="issue,bug,tracker">
+		<meta name="description" content="Redmine">
+		<meta name="googlebot" content="NOODP">
+		<meta name="robots" content="index,follow,noodp,noydir">
+		<link href="https://www.phpactiverecord.xyz/stylesheets/blueprint/screen.css?1366183229" media="screen" rel="stylesheet" type="text/css">
+		<link href="https://www.phpactiverecord.xyz/stylesheets/blueprint/print.css?1366183229" media="print" rel="stylesheet" type="text/css">
+		<!--[if lt IE 8]><link href="/stylesheets/blueprint/ie.css?1366183229" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+		<link href="https://www.phpactiverecord.xyz/themes/basecamp/stylesheets/application.css?1366183196" media="screen" rel="stylesheet" type="text/css">
+		<link href="https://www.phpactiverecord.xyz/stylesheets/jstoolbar.css?1366183229" media="screen" rel="stylesheet" type="text/css">
+		<!--[if IE]>
+		    <style type="text/css">
+		      * html body{ width: expression( document.documentElement.clientWidth < 900 ? '900px' : '100%' ); }
+		      body {behavior: url(/stylesheets/csshover.htc?1366183229);}
+		    </style>
+		<![endif]-->
+		
+		<!-- page specific tags -->
+		
+  <link href="https://www.phpactiverecord.xyz/stylesheets/scm.css?1366183229" media="screen" rel="stylesheet" type="text/css">
+		<link href="https://www.phpactiverecord.xyz/themes/basecamp/stylesheets/main.css?1366183196" media="screen" rel="stylesheet" type="text/css">
+	<style></style><style>
+      cloudflare-app[app="welcome-bar"] {
+        background-color: #0099ff;
+        color: #ffffff;
+      }
+
+      @media (max-width: 768px) {
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:hover,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:active {
+          color: #ffffff;
+        }
+      }
+
+      @media (min-width: 768px) {
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:hover,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:active {
+          background-color: #ffffff !important;
+          color: #0099ff !important;
+        }
+      }
+    </style><link rel="stylesheet" href="data:text/css;charset=utf-8;base64,LyoKICBTcGVjaWZpY2l0eSB0byBjb21iYXQgdGhpbmdzIGxpa2UgdGhpcyAoZnJvbSBDTk4uY29tIGFzIG9mIDYvNi8xNik6CgogIGJvZHkgPiA6bm90KC5uYXYpIHsKICAgIC13ZWJraXQtdHJhbnNmb3JtOiBub25lICFpbXBvcnRhbnQ7CiAgICB0cmFuc2Zvcm06IG5vbmUgIWltcG9ydGFudDsKICB9CiovCmh0bWwgPiBib2R5ID4gY2xvdWRmbGFyZS1hcHBbYXBwPSJ3ZWxjb21lLWJhciJdIHsKICBkaXNwbGF5OiBibG9jazsKICBkaXNwbGF5OiAtd2Via2l0LWJveDsKICBkaXNwbGF5OiAtbXMtZmxleGJveDsKICBkaXNwbGF5OiBmbGV4OwogIC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7CiAgICAgIC1tcy1mbGV4LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogIC13ZWJraXQtYm94LXBhY2s6IGp1c3RpZnk7CiAgICAgIC1tcy1mbGV4LXBhY2s6IGp1c3RpZnk7CiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgZm9udC1zaXplOiAxNnB4OwogIG1pbi1oZWlnaHQ6IDIuNWVtOwogIGxpbmUtaGVpZ2h0OiAxOwogIG92ZXJmbG93OiBoaWRkZW47CiAgcG9zaXRpb246IGZpeGVkOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkOwogIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7CiAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTsKICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMCwgLTMwMCUsIDApOwogICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgwLCAtMzAwJSwgMCk7Cn0KCmh0bWwgPiBib2R5ID4gY2xvdWRmbGFyZS1hcHBbYXBwPSJ3ZWxjb21lLWJhciJdOjpiZWZvcmUgewogIGNvbnRlbnQ6ICIiOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICB0b3A6IDA7CiAgbGVmdDogMDsKICByaWdodDogMDsKICBib3R0b206IDA7CiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAuMDUpOwogIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgtMTAwJSwgMCwgMCk7CiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKC0xMDAlLCAwLCAwKTsKfQoKaHRtbCA+IGJvZHkgPiBjbG91ZGZsYXJlLWFwcFthcHA9IndlbGNvbWUtYmFyIl1bZGF0YS1zbGlkZS1hbmltYXRpb25dOjpiZWZvcmUgewogIHRyYW5zaXRpb246IC13ZWJraXQtdHJhbnNmb3JtIGVhc2Utb3V0IDhzOwogIHRyYW5zaXRpb246IHRyYW5zZm9ybSBlYXNlLW91dCA4czsKICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gZWFzZS1vdXQgOHMsIC13ZWJraXQtdHJhbnNmb3JtIGVhc2Utb3V0IDhzOwp9CgpodG1sID4gYm9keSA+IGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXVtkYXRhLXNsaWRlLWFuaW1hdGlvbj0iY29tcGxldGUiXTo6YmVmb3JlIHsKICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMCwgMCwgMCk7CiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsIDAsIDApOwp9CgpodG1sW2RhdGEtY2Ytd2VsY29tZS1iYXItdmlzaWJpbGl0eT0idmlzaWJsZSJdID4gYm9keSA+IGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSB7CiAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsIDAsIDApICFpbXBvcnRhbnQ7CiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsIDAsIDApICFpbXBvcnRhbnQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSBhbGVydC1tZXNzYWdlIHsKICBkaXNwbGF5OiAtd2Via2l0LWJveDsKICBkaXNwbGF5OiAtbXMtZmxleGJveDsKICBkaXNwbGF5OiBmbGV4OwogIC13ZWJraXQtYm94LWZsZXg6IDE7CiAgICAgIC1tcy1mbGV4OiAxIDEgYXV0bzsKICAgICAgICAgIGZsZXg6IDEgMSBhdXRvOwogIC13ZWJraXQtYm94LXBhY2s6IGNlbnRlcjsKICAgICAgLW1zLWZsZXgtcGFjazogY2VudGVyOwogICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSBhbGVydC1tZXNzYWdlLWNvbnRlbnQgewogIGRpc3BsYXk6IC13ZWJraXQtYm94OwogIGRpc3BsYXk6IC1tcy1mbGV4Ym94OwogIGRpc3BsYXk6IGZsZXg7CiAgLXdlYmtpdC1ib3gtYWxpZ246IGNlbnRlcjsKICAgICAgLW1zLWZsZXgtYWxpZ246IGNlbnRlcjsKICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZm9udC1zaXplOiAxLjFlbTsKICBsaW5lLWhlaWdodDogMS4yOwogIGZvbnQtd2VpZ2h0OiA1MDA7CiAgbWF4LXdpZHRoOiA3MDBweDsKfQoKQGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICJjZmFwcHMtd2VsY29tZS1iYXItaWNvbnMiOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogbm9ybWFsOwogIHNyYzogdXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7Y2hhcnNldD11dGYtODtiYXNlNjQsZDA5R1JrOVVWRThBQUFPZ0FBb0FBQUFBQlh3QUFRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJEUmtZZ0FBQUE5QUFBQU1BQUFBRFJLamNwVDBaR1ZFMEFBQUcwQUFBQUdnQUFBQnh6Q2MyZVQxTXZNZ0FBQWRBQUFBQklBQUFBWUlES0JTbGpiV0Z3QUFBQ0dBQUFBRGNBQUFGQ0FBMGk0V2hsWVdRQUFBSlFBQUFBTHdBQUFEWUR0dFlXYUdobFlRQUFBb0FBQUFBZ0FBQUFKQWF0QWVob2JYUjRBQUFDb0FBQUFBZ0FBQUFJQS9vQUFHMWhlSEFBQUFLb0FBQUFCZ0FBQUFZQUFsQUFibUZ0WlFBQUFyQUFBQURZQUFBQnNFbkJCMXB3YjNOMEFBQURpQUFBQUJZQUFBQWcvNTBBWjNpY1kyUmdZV0ZnWkdUa1NVMU1UeTNTelV6T3p5dG1ZR1JpWUdSdy9DSEQ5RU9XK1ljRVN3OFBZd1FQODBjZUZqa3VCcFlPRGZudWJqaURoNzI3NU1la1h4MnNNZ3hkL0RJTURBSXlETDJDTWd3Y01nd25oUmlZUWNid01rZ3dLQmRscG1lVUpHZWtsaFhsNXlGWmhHd25Bd05qT3dNVEk2T0NlZmZIWHp3ZkdUOSsvUENSK2FQWTk2Ty9idncreXZieFg1SG9MNTRQLzNqWStYNU0rdEVpK2lmOHg0eUFpQjlhZjFML0FQR3hVRmErSHhORnVrVzdlYmdBT2taR28zaWNZMkJnWUdRQWdnc0ZEb2tnK3FMUHNYa3dHZ0JFWWdibEFBQjRuR05nWnZ6TE9JR0JsWUdEMVpoMUpnTURveHlFWnI3T2tNWWt4QUFFckF3UTBNQ0FDZ0xTWEZNWUhCU3NGS3pZMHY2bE1leGcvc0lnRGhSbWhDdFFBRUpHQUVROUMyOTRuR05nWUdCbWdHQVpCa1lHRUxBQjhoakJmQllHQlNETkFvUkF2b0xWLy84UTh2NXhxRW9HUmpZR0dITjRBaUk4QndDWTRnY05BSGljWTJCa1lHQUE0aTNQNzJySDg5dDhaZURtWUFDQml6N0g1aUhvL3k4Wi96Ri9BWEk1R0poQW9nQnFkdzFDQUhpY1kyQmtZR0QrOHY4bHd3N0d2d3dNLy84ei9tTUFpcUFBSmdEQWh3ZVhBZjBBQUFIOUFBQUFBRkFBQUFJQUFIaWNqWSs5RGNJd0VJVmZJRUhpUjVTSTBnVVNsU003QWdvR29LU2tSOGlLMHNTU3d3eU13QmlNd1FDTXdRRFVQSnNyS0Npd2RQWjNkKzkrREdDQ0t6TEVrMkdNdVhBUEJZeHdIMHRjaEhOcTdzSUYrU2s4d0RpYlVwbmxRMFptcVNweUR5TXNoUHZZWXlPY1UzTVRMc2dQNFFINUJZY2phdDRCR2cxTzhHalJBZTVZdTZDYmsyL3BmTVVsc2t2K09iMGgxU3RVS1BrUGhTM3RkOWRQemxLbHNhSlZKSXMxMi9uMnZQT2hkcW9xamRxcXIrbjByTkVyWFJsTDRUL2JIbEsrWXo1bTQ3eTRGdzR1ZEkxdmxTM05YMzNlRWhCRE1uaWNZMkJtQUlQL3N4alNnQlFqQXhvQUFDNnFBZ1FBQUE9PSkgZm9ybWF0KCJ3b2ZmIik7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSAuYWxlcnQtY3RhLWJ1dHRvbiB7CiAgZGlzcGxheTogLXdlYmtpdC1ib3ggIWltcG9ydGFudDsKICBkaXNwbGF5OiAtbXMtZmxleGJveCAhaW1wb3J0YW50OwogIGRpc3BsYXk6IGZsZXggIWltcG9ydGFudDsKICAtd2Via2l0LWJveC1hbGlnbjogY2VudGVyICFpbXBvcnRhbnQ7CiAgICAgIC1tcy1mbGV4LWFsaWduOiBjZW50ZXIgIWltcG9ydGFudDsKICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXIgIWltcG9ydGFudDsKICBib3JkZXI6IDAgIWltcG9ydGFudDsKICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7CiAgY3Vyc29yOiBwb2ludGVyICFpbXBvcnRhbnQ7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrICFpbXBvcnRhbnQ7CiAgLXdlYmtpdC1ib3gtZmxleDogMCAhaW1wb3J0YW50OwogICAgICAtbXMtZmxleDogMCAwIGF1dG8gIWltcG9ydGFudDsKICAgICAgICAgIGZsZXg6IDAgMCBhdXRvICFpbXBvcnRhbnQ7CiAgZm9udC1zaXplOiAuODVlbSAhaW1wb3J0YW50OwogIGZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7CiAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7CiAgbGV0dGVyLXNwYWNpbmc6IC4wOGVtOwogIGxpbmUtaGVpZ2h0OiAuOTUgIWltcG9ydGFudDsKICBtYXgtd2lkdGg6IDE2ZW0gIWltcG9ydGFudDsKICBvcGFjaXR5OiAuODU7CiAgb3ZlcmZsb3c6IHZpc2libGUgIWltcG9ydGFudDsKICBwb3NpdGlvbjogcmVsYXRpdmUgIWltcG9ydGFudDsKICB0ZXh0LWRlY29yYXRpb246IG5vbmUgIWltcG9ydGFudDsKICB0ZXh0LWluZGVudDogLjA4ZW07CiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXMgIWltcG9ydGFudDsKICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlICFpbXBvcnRhbnQ7CiAgd2hpdGUtc3BhY2U6IG5vd3JhcCAhaW1wb3J0YW50OwogIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSAuYWxlcnQtY3RhLWJ1dHRvbjo6YWZ0ZXIgewogIGNvbG9yOiBpbmhlcml0ICFpbXBvcnRhbnQ7CiAgY29udGVudDogIlwyMDNBIjsKICBkaXNwbGF5OiBpbmxpbmUtYmxvY2sgIWltcG9ydGFudDsKICBmb250LWZhbWlseTogImNmYXBwcy13ZWxjb21lLWJhci1pY29ucyI7CiAgZm9udC1zaXplOiAxLjNlbSAhaW1wb3J0YW50OwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogaW5oZXJpdDsKICBsaW5lLWhlaWdodDogLjggIWltcG9ydGFudDsKICBtYXJnaW4tdG9wOiAtMXB4ICFpbXBvcnRhbnQ7CiAgbWFyZ2luLXRvcDogYXV0byAhaW1wb3J0YW50OwogIHBhZGRpbmctbGVmdDogLjNlbSAhaW1wb3J0YW50OwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICBsZWZ0OiAxMDAlOwp9CgpjbG91ZGZsYXJlLWFwcFthcHA9IndlbGNvbWUtYmFyIl0gYWxlcnQtZGlzbWlzcyB7CiAgY3Vyc29yOiBwb2ludGVyOwogIGNvbG9yOiByZ2JhKDEwLCAxMCwgMTAsIC4yNSk7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogIC13ZWJraXQtYm94LWZsZXg6IDA7CiAgICAgIC1tcy1mbGV4OiAwIDAgYXV0bzsKICAgICAgICAgIGZsZXg6IDAgMCBhdXRvOwogIGZvbnQtZmFtaWx5OiAiSGVsdmV0aWNhIE5ldWUiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmOwogIGZvbnQtc2l6ZTogMmVtOwogIGZvbnQtd2VpZ2h0OiAzMDA7CiAgaGVpZ2h0OiAxZW07CiAgbGluZS1oZWlnaHQ6IC43NWVtOwogIG1hcmdpbjogMCAuMmVtOwogIC13ZWJraXQtdXNlci1zZWxlY3Q6IG5vbmU7CiAgICAgLW1vei11c2VyLXNlbGVjdDogbm9uZTsKICAgICAgLW1zLXVzZXItc2VsZWN0OiBub25lOwogICAgICAgICAgdXNlci1zZWxlY3Q6IG5vbmU7CiAgd2lkdGg6IC45ZW07Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSBhbGVydC1kaXNtaXNzOmhvdmVyIHsKICBjb2xvcjogcmdiYSgxMCwgMTAsIDEwLCAuNSk7Cn0KCmh0bWwgPiBib2R5ID4gY2xvdWRmbGFyZS1hcHBbYXBwPSJ3ZWxjb21lLWJhciJdW2RhdGEtc3R5bGU9InNsaW0iXSB7CiAgZm9udC1zaXplOiAuOTJlbTsKICBtaW4taGVpZ2h0OiAyLjJlbTsKfQoKaHRtbCA+IGJvZHkgPiBjbG91ZGZsYXJlLWFwcFthcHA9IndlbGNvbWUtYmFyIl1bZGF0YS1zdHlsZT0icHJvbWluZW50Il0gLmFsZXJ0LWN0YS1idXR0b24gewogIGJvcmRlci1yYWRpdXM6IC4xNWVtOwp9CgpAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHsKICBjbG91ZGZsYXJlLWFwcFthcHA9IndlbGNvbWUtYmFyIl0gewogICAgcGFkZGluZzogLjVlbSAwOwogIH0KCiAgY2xvdWRmbGFyZS1hcHBbYXBwPSJ3ZWxjb21lLWJhciJdW2RhdGEtc3R5bGU9InByb21pbmVudCJdIC5hbGVydC1jdGEtYnV0dG9uIHsKICAgIHBhZGRpbmc6IC42NWVtIDEuNzVlbSAuNmVtIC45ZW0gIWltcG9ydGFudDsKICB9CgogIGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXVtkYXRhLXN0eWxlPSJwcm9taW5lbnQiXSAuYWxlcnQtY3RhLWJ1dHRvbjo6YWZ0ZXIgewogICAgbGVmdDogYXV0bzsKICB9CgogIGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSAuYWxlcnQtY3RhLWJ1dHRvbiB7CiAgICBtYXJnaW4tbGVmdDogMWVtOwogIH0KfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgaHRtbCA+IGJvZHkgPiBjbG91ZGZsYXJlLWFwcFthcHA9IndlbGNvbWUtYmFyIl0gewogICAgLXdlYmtpdC1ib3gtYWxpZ246IGNlbnRlcjsKICAgICAgICAtbXMtZmxleC1hbGlnbjogY2VudGVyOwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgZm9udC1zaXplOiAuOTJlbTsKICAgIG1pbi1oZWlnaHQ6IDIuMmVtOwogICAgcGFkZGluZzogLjVlbSAwIC41ZW0gLjVlbTsKICB9CgogIGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSAuYWxlcnQtY3RhLWJ1dHRvbiB7CiAgICBtYXJnaW4tdG9wOiAuNWVtOwogICAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDsKICAgIC13ZWJraXQtYm94LWZsZXg6IDA7CiAgICAgICAgLW1zLWZsZXg6IDAgMCBhdXRvOwogICAgICAgICAgICBmbGV4OiAwIDAgYXV0bzsKICB9CgogIGNsb3VkZmxhcmUtYXBwW2FwcD0id2VsY29tZS1iYXIiXSBhbGVydC1tZXNzYWdlLWNvbnRlbnQgewogICAgLXdlYmtpdC1ib3gtb3JpZW50OiB2ZXJ0aWNhbCAhaW1wb3J0YW50OwogICAgLXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWwgIWltcG9ydGFudDsKICAgICAgICAtbXMtZmxleC1mbG93OiBjb2x1bW4gbm93cmFwICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIGZsZXgtZmxvdzogY29sdW1uIG5vd3JhcCAhaW1wb3J0YW50OwogICAgLXdlYmtpdC1ib3gtYWxpZ246IHN0YXJ0ICFpbXBvcnRhbnQ7CiAgICAgICAgLW1zLWZsZXgtYWxpZ246IHN0YXJ0ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0ICFpbXBvcnRhbnQ7CiAgfQp9Cgo="></head>
+<body>
+	
+<div id="wrapper">
+	<div id="header">
+	    <div class="container">
+	        <div class="span-7">
+	            <h1><a href="http://www.phpactiverecord.xyz/" target="_top">php.activerecord</a></h1>
+	        </div>
+	        <div class="span-13" id="main-nav">
+		        <ul class="horizontal"><li><a href="https://www.phpactiverecord.xyz/download/index/main" class="download">Download</a></li>
+<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations" class="guides">Wiki</a></li>
+<li><a href="https://www.phpactiverecord.xyz/docs/index/main" class="docs">Docs</a></li>
+<li><a href="https://www.phpactiverecord.xyz/news/index/main?project_id=main" class="news">News</a></li>
+<li><a href="https://www.phpactiverecord.xyz/projects/main/boards" class="boards">Forums</a></li>
+<li><a href="https://www.phpactiverecord.xyz/welcome/about/main" class="about-us">About us</a></li></ul>	        </div>
+          <div class="span-4 last" id="account-menu">
+		        <ul class="horizontal"><li><a href="https://www.phpactiverecord.xyz/login" class="login">Sign in</a></li>
+<li><a href="https://www.phpactiverecord.xyz/account/register" class="register">Register</a></li></ul>          </div>
+	    </div>
+	</div>
+
+	<div id="main-frame">
+		<div id="breadcrumbs" class="container">
+			<ul class="span-24 last">
+				<li><a href="https://www.phpactiverecord.xyz/">Home</a></li><li><a href="https://www.phpactiverecord.xyz/projects/main/wiki">Wiki</a></li><li class="last"><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations">Associations</a></li>
+			</ul>
+		</div>
+
+		<div id="main" class="container">
+			<div id="content" class="span-16 colborder">
+				
+				<div class="contextual">
+
+
+<span id="watcher"></span>
+
+
+
+
+
+
+<a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations/history" class="icon icon-history">History</a>
+</div>
+
+
+
+
+
+<div class="wiki">
+  <h2 id="Associations">Associations<a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations/#Associations" class="wiki-anchor">Â¶</a></h2>
+
+
+	<ul id="topic-list">
+	<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#common-options">Common options</a></li>
+		<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#has_many">has_many</a></li>
+		<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#has_many_through" title="many to many">has_many through</a></li>
+		<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#belongs_to">belongs_to</a></li>
+		<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#has_one">has_one</a></li>
+		<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#self-referential">Self-referential</a></li>
+	</ul>
+
+
+	<p>What are associations? By declaring associations on your models, you allow them to communicate with each other. These associations should match the way data in your tables relate to each other.</p>
+
+
+	<h4 id="common-options">Common options</h4>
+
+
+	<p>These are available amongst each type of association.</p>
+
+
+	<p><strong>conditions</strong>: string/array of <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Finders#conditions">finder conditions</a><br><strong>readonly</strong>: whether associated objects can be <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Finders#read-only">saved/destroyed</a><br><strong>select</strong>: specify fields in the <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Finders#select">select clause</a><br><strong>class_name</strong>: the class name of the associated model<br><strong>foreign_key</strong>: name of foreign_key</p>
+
+
+	<p>Let's take a look at these options with a few different association types</p>
+
+
+	<h5>conditions</h5>
+
+
+	<p>Below, we specify that associated payments of an order object should not be void.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Order</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$has_many</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">conditions</span><span class="dl">'</span></span> =&gt; <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">void = ?</span><span class="dl">'</span></span> =&gt; <span class="pd">array</span>(<span class="i">0</span>)))
+<span class="no">4</span>   );
+<span class="no">5</span> }
+</span></code></pre>
+
+	<h5>readonly</h5>
+
+
+	<p>If you add a readonly option to your association, then the associatied object cannot be saved, although, the base object can still be saved.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no"> 1</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 2</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no"> 3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">user</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">readonly</span><span class="dl">'</span></span> =&gt; <span class="pc">true</span>)
+<span class="no"> 4</span>   );
+<span class="no"> 5</span> }
+<span class="no"> 6</span> 
+<span class="no"> 7</span> <span class="lv">$payment</span> = <span class="co">Payment</span>::first();
+<span class="no"> 8</span> <span class="lv">$payment</span>-&gt;paid = <span class="i">1</span>;
+<span class="no"> 9</span> <span class="lv">$payment</span>-&gt;save(); <span class="c"># this will save just fine</span>
+<span class="no"><strong>10</strong></span> 
+<span class="no">11</span> <span class="lv">$payment</span>-&gt;user-&gt;first_name = <span class="s"><span class="dl">'</span><span class="k">John</span><span class="dl">'</span></span>;
+<span class="no">12</span> <span class="lv">$payment</span>-&gt;user-&gt;save(); <span class="c"># this will throw a ReadOnlyException</span>
+</span></code></pre>
+
+	<h5>select</h5>
+
+
+	<p>Sometimes you may not need all of the fields back from one of your associations (e.g. it may be a ridiculously large table) and so you can specify the particular fields you want.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">person</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">select</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">id, first_name, last_name</span><span class="dl">'</span></span>)
+<span class="no">4</span>   );
+<span class="no">5</span> }
+</span></code></pre>
+
+	<h5 id="class_name">class_name</h5>
+
+
+	<p>In this example payment has a one-to-one relationship with a user, but we want to access the association thru "person." Thus, we have to provide the class name of the associated model; otherwise, ActiveRecord would try to look for a "Person" class.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">person</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">class_name</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">User</span><span class="dl">'</span></span>)
+<span class="no">4</span>   );
+<span class="no">5</span> }
+</span></code></pre>
+
+	<h4 id="has_many">has_many</h4>
+
+
+	<p>A one-to-many relationship. You should use a pluralized form of the associated model when declaring a has_many association, unless you want to use the <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#class_name">class_name</a> option.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no"> 1</span> <span class="c"># one-to-many association with the model "Payment" </span>
+<span class="no"> 2</span> <span class="r">class</span> <span class="cl">User</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 3</span>   <span class="r">static</span> <span class="lv">$has_many</span> = <span class="pd">array</span>(
+<span class="no"> 4</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>)
+<span class="no"> 5</span>   );
+<span class="no"> 6</span> }
+<span class="no"> 7</span> 
+<span class="no"> 8</span> <span class="lv">$user</span> = <span class="co">User</span>::first();
+<span class="no"> 9</span> <span class="pd">print_r</span>(<span class="lv">$user</span>-&gt;payments); <span class="c"># =&gt; will print an array of Payment objects</span>
+<span class="no"><strong>10</strong></span> 
+<span class="no">11</span> <span class="lv">$payment</span> = <span class="lv">$user</span>-&gt;create_payment(<span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">amount</span><span class="dl">'</span></span> =&gt; <span class="i">1</span>)); <span class="c"># build|create for associations.</span>
+</span></code></pre>
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/has_many.png" alt=""></p>
+
+
+	<p>Options (not part of <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#common-options">common options</a>)</p>
+
+
+	<p><strong>limit/offset</strong>: limit the number of records<br><strong>primary_key</strong>: name of the primary_key of the association (assumed to be "id")<br><strong>group</strong>: GROUP BY clause<br><strong>order</strong>: ORDER BY clause<br><strong>through</strong>: the association used to go "through"</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Order</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$has_many</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">limit</span><span class="dl">'</span></span> =&gt; <span class="i">5</span>),
+<span class="no">4</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">items</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">order</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">name asc</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">group</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">type</span><span class="dl">'</span></span>)
+<span class="no">5</span>   );
+<span class="no">6</span> }
+</span></code></pre>
+
+	<h5 id="has_many_through">has_many through (many to many)</h5>
+
+
+	<p>This is a convenient way to configure a many-to-many association. In this example an order is associated with users by going the its payments association.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no"> 1</span> <span class="r">class</span> <span class="cl">Order</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 2</span>   <span class="r">static</span> <span class="lv">$has_many</span> = <span class="pd">array</span>(
+<span class="no"> 3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>),
+<span class="no"> 4</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">users</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">through</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>)
+<span class="no"> 5</span>   );
+<span class="no"> 6</span> }
+<span class="no"> 7</span> 
+<span class="no"> 8</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 9</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no"><strong>10</strong></span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">user</span><span class="dl">'</span></span>),
+<span class="no">11</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">order</span><span class="dl">'</span></span>)
+<span class="no">12</span>   );
+<span class="no">13</span> }
+<span class="no">14</span> 
+<span class="no">15</span> <span class="r">class</span> <span class="cl">User</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">16</span>   <span class="r">static</span> <span class="lv">$has_many</span> = <span class="pd">array</span>(
+<span class="no">17</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">payments</span><span class="dl">'</span></span>)
+<span class="no">18</span>   );
+<span class="no">19</span> }
+<span class="no"><strong>20</strong></span> 
+<span class="no">21</span> <span class="lv">$order</span> = <span class="co">Order</span>::first();
+<span class="no">22</span> <span class="c"># direct access to users</span>
+<span class="no">23</span> <span class="pd">print_r</span>(<span class="lv">$order</span>-&gt;users); <span class="c"># will print an array of User object</span>
+</span></code></pre>
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/has_many_through.png" alt=""></p>
+
+
+	<h4 id="belongs_to">belongs_to</h4>
+
+
+	<p>This indicates a one-to-one relationship. Its difference from <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#has_one">has_one</a> is that the foreign key will be on the table which declares a belongs_to association. You should use a singular form of the associated model when declaring this association, unless you want to use the <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#class_name">class_name</a> option.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">user</span><span class="dl">'</span></span>)
+<span class="no">4</span>   );
+<span class="no">5</span> }
+<span class="no">6</span> 
+<span class="no">7</span> <span class="lv">$payment</span> = <span class="co">Payment</span>::first();
+<span class="no">8</span> <span class="pd">echo</span> <span class="lv">$payment</span>-&gt;user-&gt;first_name; <span class="c"># first_name of associated User object</span>
+</span></code></pre> 
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/belongs_to.png" alt=""></p>
+
+
+	<p>Options (not part of <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#common-options">common options</a>)</p>
+
+
+	<p><strong>primary_key</strong>: name of the primary_key of the association (assumed to be "id")</p>
+
+
+	<h4 id="has_one">has_one</h4>
+
+
+	<p>This indicates a one-to-one relationship. A has_one will have the foreign key on the associated table unlike <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#belongs_to">belongs_to</a>. You should use a singular form of the associated model when declaring this association, unless you want to use the <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#class_name">class_name</a> option.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Payment</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$has_one</span> = <span class="pd">array</span>(
+<span class="no">3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">receipt</span><span class="dl">'</span></span>)
+<span class="no">4</span>   );
+<span class="no">5</span> }
+</span></code></pre>
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/has_one.png" alt=""></p>
+
+
+	<p>Options (not part of <a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations#common-options">common options</a>)</p>
+
+
+	<p><strong>primary_key</strong>: name of the primary_key of the association (assumed to be "id")<br><strong>through</strong>: the association used to go "through"</p>
+
+
+	<h5>has_one through</h5>
+
+
+	<p>A one-to-one association. In this example, an owner has a quarter_back by going through its team association.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no"> 1</span> <span class="r">class</span> <span class="cl">Owner</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 2</span>   <span class="r">static</span> <span class="lv">$has_one</span> = <span class="pd">array</span>(
+<span class="no"> 3</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">team</span><span class="dl">'</span></span>),
+<span class="no"> 4</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">quarter_back</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">through</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">team</span><span class="dl">'</span></span>)
+<span class="no"> 5</span>   );
+<span class="no"> 6</span> }
+<span class="no"> 7</span> 
+<span class="no"> 8</span> <span class="r">class</span> <span class="cl">Team</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no"> 9</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no"><strong>10</strong></span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">owner</span><span class="dl">'</span></span>)
+<span class="no">11</span>   );
+<span class="no">12</span> 
+<span class="no">13</span>   <span class="r">static</span> <span class="lv">$has_one</span> = <span class="pd">array</span>(
+<span class="no">14</span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">quarter_back</span><span class="dl">'</span></span>)
+<span class="no">15</span>   );
+<span class="no">16</span> }
+<span class="no">17</span> 
+<span class="no">18</span> <span class="r">class</span> <span class="cl">QuarterBack</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">19</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(
+<span class="no"><strong>20</strong></span>     <span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">team</span><span class="dl">'</span></span>)
+<span class="no">21</span>   );
+<span class="no">22</span> }
+</span></code></pre>
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/has_one_through.png" alt=""></p>
+
+
+	<h4 id="self-referential">Self-referential</h4>
+
+
+	<p>Model's can declare associations to themselves. This can be helpful for table auditing, or in the example below, where a post would need to know about its parent.</p>
+
+
+<pre class="code"><code class="php syntaxhl"><span class="CodeRay"><span class="no">1</span> <span class="r">class</span> <span class="cl">Post</span> <span class="r">extends</span> <span class="co">ActiveRecord</span>\<span class="co">Model</span> {
+<span class="no">2</span>   <span class="r">static</span> <span class="lv">$belongs_to</span> = <span class="pd">array</span>(<span class="pd">array</span>(<span class="s"><span class="dl">'</span><span class="k">parent_post</span><span class="dl">'</span></span>, <span class="s"><span class="dl">'</span><span class="k">class_name</span><span class="dl">'</span></span> =&gt; <span class="s"><span class="dl">'</span><span class="k">Post</span><span class="dl">'</span></span>));
+<span class="no">3</span> }
+</span></code></pre> 
+
+	<p><img src="https://www.phpactiverecord.xyz/images/guides/belongs_to_self_referential.png" alt=""></p>
+</div>
+
+
+
+
+
+
+<p class="other-formats">Also available in:
+	<span><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations?format=html&amp;version=11" class="html" rel="nofollow">HTML</a></span>
+	<span><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations?format=txt&amp;version=11" class="txt" rel="nofollow">TXT</a></span>
+</p>
+
+
+
+
+
+
+
+				
+			</div>
+
+			<div id="sidebar" class="span-7 last">
+				<div class="r-button" id="stable-build">
+					<a href="https://www.phpactiverecord.xyz/download">Get Stable Build - <em>v1.0</em><p>June 27 2010</p></a>
+				</div>
+				<div class="r-button" id="nightly-build">
+					<a href="https://www.phpactiverecord.xyz/download">Get Nightly Build <p>April 16, 2013</p></a>
+				</div>
+		
+				
+
+				<h2 id="news-header">
+	<a href="https://www.phpactiverecord.xyz/news">Latest News</a>
+	<a class="feed" href="https://www.phpactiverecord.xyz/projects/main/news.atom"><img src="https://www.phpactiverecord.xyz/images/feed-icon-14x14.png"></a>
+</h2>
+
+<ul id="news-summary" class="icon-list">
+	
+	<li class="article">
+		<a href="https://www.phpactiverecord.xyz/news/6-website-downtime">Website Downtime</a>
+		
+		<div class="meta">
+			<em class="relative" title="2011-09-26T16:43:49Z">6 years ago</em> ago
+			
+		</div>
+		
+	</li>
+	
+	<li class="article">
+		<a href="https://www.phpactiverecord.xyz/news/5-did-you-know-php-ar-has-eager-loading">Did you know? PHP-AR has Eager Loading</a>
+		
+		<div class="meta">
+			<em class="relative" title="2010-08-31T23:31:08Z">7 years ago</em> ago
+			
+		</div>
+		
+	</li>
+	
+	<li class="article">
+		<a href="https://www.phpactiverecord.xyz/news/4-php-activerecord-1-0-released">php-activerecord 1.0 released!</a>
+		
+		<div class="meta">
+			<em class="relative" title="2010-06-28T00:02:55Z">8 years ago</em> ago
+			
+		</div>
+		
+	</li>
+	
+	<li class="article">
+		<a href="https://www.phpactiverecord.xyz/news/3-website-updated-with-forums-and-wiki">Website updated with forums and wiki</a>
+		
+		<div class="meta">
+			<em class="relative" title="2010-06-18T21:37:23Z">8 years ago</em> ago
+			
+		</div>
+		
+	</li>
+	
+	<li class="article">
+		<a href="https://www.phpactiverecord.xyz/news/2-php-activerecord-1-0-rc1-released">php-activerecord 1.0 RC1 released!</a>
+		
+		<div class="meta">
+			<em class="relative" title="2010-04-07T00:00:15Z">8 years ago</em> ago
+			
+		</div>
+		
+	</li>
+	
+</ul>
+
+
+
+
+				<h2><a href="https://www.phpactiverecord.xyz/projects/main/activity">Recent Activity</a></h2>
+<ul id="recent-activity" class="icon-list">
+		<li class="message">
+	  
+		<a href="https://www.phpactiverecord.xyz/boards/1/topics/2069-re-support-for-multi-row-inserts-and-insert-ignore">Encotrei uma soluÃ§Ã£o alternativa para varias inserÃ§Ãµes.
+
+Model::query('inse...</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/3231">renan henrique constancio</a>
+			<em class="relative" title="2017-03-17T14:08:17Z">about a year ago</em>
+		</div>
+	</li>
+		<li class="message">
+	  
+		<a href="https://www.phpactiverecord.xyz/boards/4/topics/2068-re-can-t-get-groupname-using-associations">I have the same question, have you find the answer?</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/3194">Israel Sousa</a>
+			<em class="relative" title="2017-03-03T19:52:52Z">about a year ago</em>
+		</div>
+	</li>
+		<li class="message">
+	  
+		<a href="https://www.phpactiverecord.xyz/boards/4/topics/2067-cannot-change-primary_key">Hi, 
+I cannot change  $primary_key of entity.
+After save is still in database o...</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/2785">Vasek Keberdle</a>
+			<em class="relative" title="2017-01-03T17:20:13Z">about a year ago</em>
+		</div>
+	</li>
+		<li class="message">
+	  
+		<a href="https://www.phpactiverecord.xyz/boards/4/topics/2066-re-saving-date-to-mysql-problem">That static property is not available anymore in stable build 1.0, so that won't ...</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/3038">Jos Faber</a>
+			<em class="relative" title="2016-12-07T13:21:47Z">about a year ago</em>
+		</div>
+	</li>
+		<li class="message">
+	  
+		<a href="https://www.phpactiverecord.xyz/boards/4/topics/2065-re-can-t-get-groupname-using-associations">Project is dead?</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/2948">McLotos McLotos</a>
+			<em class="relative" title="2016-09-28T09:58:57Z">about a year ago</em>
+		</div>
+	</li>
+		<li class="commit">
+	  
+		<a href="http://github.com/kla/php-activerecord/commit/96100175f2c268648a6b9fad3157620a6a6649d1">Merge pull request #284 from fetch/test-require-fix
+
+Using __DIR__ in require_onc...</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/3">Jacques Fuentes</a>
+			<em class="relative" title="2013-04-15T13:09:16Z">5 years ago</em>
+		</div>
+	</li>
+		<li class="commit">
+	  
+		<a href="http://github.com/kla/php-activerecord/commit/f8220bfaaf820f53d99e3c97b97b4a5ee2a0adfe">absolute path require_once</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/1660">Koen Punt</a>
+			<em class="relative" title="2013-04-15T08:07:39Z">5 years ago</em>
+		</div>
+	</li>
+		<li class="commit">
+	  
+		<a href="http://github.com/kla/php-activerecord/commit/17eb9c6155ae3fb8ac144ab07ee828a19a8be9c1">Re #282, pointing phpunit at the tests...</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/show/David%20Rogers%20">David Rogers </a>
+			<em class="relative" title="2013-04-11T20:39:30Z">5 years ago</em>
+		</div>
+	</li>
+		<li class="commit">
+	  
+		<a href="http://github.com/kla/php-activerecord/commit/ec53c90187577c9671fd16a1a96979aed067b8cf">Driving tests with phpunit.xml re #282</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/show/David%20Rogers%20">David Rogers </a>
+			<em class="relative" title="2013-04-11T20:26:29Z">5 years ago</em>
+		</div>
+	</li>
+		<li class="commit">
+	  
+		<a href="http://github.com/kla/php-activerecord/commit/d8c90b6a640da93539ec0e758e60800fcee9bc8a">Create .travis.yml to drive Travis CI build</a>
+		
+		<div class="author">
+			by <a href="https://www.phpactiverecord.xyz/users/show/David%20Rogers%20">David Rogers </a>
+			<em class="relative" title="2013-04-11T19:39:42Z">5 years ago</em>
+		</div>
+	</li>
+	</ul>
+
+
+				
+  
+<h3>Wiki</h3>
+
+<a href="https://www.phpactiverecord.xyz/projects/main/wiki">Start page</a><br>
+<a href="https://www.phpactiverecord.xyz/projects/main/wiki/Page_index">Index by title</a><br>
+<a href="https://www.phpactiverecord.xyz/projects/main/wiki/Date_index">Index by date</a><br>
+
+
+				
+			</div>
+		</div>
+	</div>
+
+	<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+
+	<div id="footer">
+	    <div class="container">
+	        <div class="span-24 last">
+			    <ul class="horizontal">
+	<li><a href="https://www.phpactiverecord.xyz/">Home</a></li>
+	<li><a href="https://www.phpactiverecord.xyz/download/index/main">Download</a></li>
+	<li><a href="https://www.phpactiverecord.xyz/projects/main/wiki/Associations">Wiki</a></li>
+	<li><a href="https://www.phpactiverecord.xyz/docs">Documentation</a></li>
+	<li><a href="http://github.com/kla/php-activerecord/issues">Issues</a></li><a href="https://www.phpactiverecord.xyz/news">News</a>
+	<li><a href="https://www.phpactiverecord.xyz/projects/main/boards">Forums</a></li>
+	<li class="last"><a href="https://www.phpactiverecord.xyz/welcome/about">About Us</a></li>
+</ul>
+<p>
+	<a href="http://www.phpactiverecord.xyz/" target="_top">phpactiverecord.xyz - An easy to use ORM for PHP</a><br>
+	<a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>
+</p>
+
+	        </div>
+	    </div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<cloudflare-app app="welcome-bar" data-style="prominent" style="z-index: 1;"><alert-message><alert-message-content>This is a duplicate of the official PHP-ActiveRecord site www.phpactiverecord.org. Last updated 11 April 2018.<a class="alert-cta-button" href="http://www.phpactiverecord.org/">Official Site</a></alert-message-content></alert-message><alert-dismiss role="button">Ã—</alert-dismiss></cloudflare-app></body></html>
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/stylesheets/blueprint/screen.css?1366183229
+
+@charset "utf-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+
+body { line-height: 1.5; }
+
+table { border-collapse: separate; border-spacing: 0px; }
+
+caption, th, td { text-align: left; font-weight: normal; }
+
+table, td, th { vertical-align: middle; }
+
+blockquote::before, blockquote::after, q::before, q::after { content: ""; }
+
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+
+body { font-size: 80%; color: rgb(34, 34, 34); background: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; color: rgb(17, 17, 17); }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+
+h2 { font-size: 2em; margin-bottom: 0.75em; margin-top: 0.75em; }
+
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+
+h6 { font-size: 1em; font-weight: bold; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0px; }
+
+p { margin: 0px 0px 1.5em; }
+
+p img.left { float: left; margin: 1.5em 1.5em 1.5em 0px; padding: 0px; }
+
+p img.right { float: right; margin: 1.5em 0px 1.5em 1.5em; }
+
+a:focus, a:hover { color: rgb(0, 0, 0); }
+
+a { color: rgb(0, 0, 153); text-decoration: underline; }
+
+blockquote { margin: 1.5em; color: rgb(102, 102, 102); font-style: italic; }
+
+strong { font-weight: bold; }
+
+em, dfn { font-style: italic; }
+
+dfn { font-weight: bold; }
+
+sup, sub { line-height: 0; }
+
+abbr, acronym { border-bottom: 1px dotted rgb(102, 102, 102); }
+
+address { margin: 0px 0px 1.5em; font-style: italic; }
+
+del { color: rgb(102, 102, 102); }
+
+pre { margin: 1.5em 0px; white-space: pre; }
+
+pre, code, tt { font: 1em/1.5 "andale mono", "lucida console", monospace; }
+
+li ul, li ol { margin: 0px 1.5em; }
+
+ul, ol { margin: 0px 1.5em 1.5em; }
+
+ul { list-style-type: disc; }
+
+ol { list-style-type: decimal; }
+
+dl { margin: 0px 0px 1.5em; }
+
+dl dt { font-weight: bold; }
+
+dd { margin-left: 1.5em; }
+
+table { margin-bottom: 1.4em; width: 100%; }
+
+th { font-weight: bold; }
+
+thead th { background: rgb(195, 217, 255); }
+
+th, td, caption { padding: 4px 10px 4px 5px; }
+
+tr.even td { background: rgb(229, 236, 249); }
+
+tfoot { font-style: italic; }
+
+caption { background: rgb(238, 238, 238); }
+
+.small { font-size: 0.8em; margin-bottom: 1.875em; line-height: 1.875em; }
+
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+
+.hide { display: none; }
+
+.quiet { color: rgb(102, 102, 102); }
+
+.loud { color: rgb(0, 0, 0); }
+
+.highlight { background: rgb(255, 255, 0); }
+
+.added { background: rgb(0, 102, 0); color: rgb(255, 255, 255); }
+
+.removed { background: rgb(153, 0, 0); color: rgb(255, 255, 255); }
+
+.first { margin-left: 0px; padding-left: 0px; }
+
+.last { margin-right: 0px; padding-right: 0px; }
+
+.top { margin-top: 0px; padding-top: 0px; }
+
+.bottom { margin-bottom: 0px; padding-bottom: 0px; }
+
+label { font-weight: bold; }
+
+fieldset { padding: 1.4em; margin: 0px 0px 1.5em; border: 1px solid rgb(204, 204, 204); }
+
+legend { font-weight: bold; font-size: 1.2em; }
+
+input[type="text"], input[type="password"], input.text, input.title, textarea, select { background-color: rgb(255, 255, 255); border: 1px solid rgb(187, 187, 187); }
+
+input[type="text"]:focus, input[type="password"]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus { border-color: rgb(102, 102, 102); }
+
+input[type="text"], input[type="password"], input.text, input.title, textarea, select { margin: 0.5em 0px; }
+
+input.text, input.title { width: 300px; padding: 5px; }
+
+input.title { font-size: 1.5em; }
+
+textarea { width: 390px; height: 250px; padding: 5px; }
+
+input[type="checkbox"], input[type="radio"], input.checkbox, input.radio { position: relative; top: 0.25em; }
+
+form.inline { line-height: 3; }
+
+form.inline p { margin-bottom: 0px; }
+
+.error, .notice, .success { padding: 0.8em; margin-bottom: 1em; border: 2px solid rgb(221, 221, 221); }
+
+.error { background: rgb(251, 227, 228); color: rgb(138, 31, 17); border-color: rgb(251, 194, 196); }
+
+.notice { background: rgb(255, 246, 191); color: rgb(81, 71, 33); border-color: rgb(255, 211, 36); }
+
+.success { background: rgb(230, 239, 194); color: rgb(38, 68, 9); border-color: rgb(198, 216, 128); }
+
+.error a { color: rgb(138, 31, 17); }
+
+.notice a { color: rgb(81, 71, 33); }
+
+.success a { color: rgb(38, 68, 9); }
+
+.container { width: 950px; margin: 0px auto; }
+
+.showgrid { background: url("src/grid.png"); }
+
+.column, div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.span-21, div.span-22, div.span-23, div.span-24 { float: left; margin-right: 10px; }
+
+.last, div.last { margin-right: 0px; }
+
+.span-1 { width: 30px; }
+
+.span-2 { width: 70px; }
+
+.span-3 { width: 110px; }
+
+.span-4 { width: 150px; }
+
+.span-5 { width: 190px; }
+
+.span-6 { width: 230px; }
+
+.span-7 { width: 270px; }
+
+.span-8 { width: 310px; }
+
+.span-9 { width: 350px; }
+
+.span-10 { width: 390px; }
+
+.span-11 { width: 430px; }
+
+.span-12 { width: 470px; }
+
+.span-13 { width: 510px; }
+
+.span-14 { width: 550px; }
+
+.span-15 { width: 590px; }
+
+.span-16 { width: 630px; }
+
+.span-17 { width: 670px; }
+
+.span-18 { width: 710px; }
+
+.span-19 { width: 750px; }
+
+.span-20 { width: 790px; }
+
+.span-21 { width: 830px; }
+
+.span-22 { width: 870px; }
+
+.span-23 { width: 910px; }
+
+.span-24, div.span-24 { width: 950px; margin: 0px; }
+
+input.span-1, textarea.span-1, input.span-2, textarea.span-2, input.span-3, textarea.span-3, input.span-4, textarea.span-4, input.span-5, textarea.span-5, input.span-6, textarea.span-6, input.span-7, textarea.span-7, input.span-8, textarea.span-8, input.span-9, textarea.span-9, input.span-10, textarea.span-10, input.span-11, textarea.span-11, input.span-12, textarea.span-12, input.span-13, textarea.span-13, input.span-14, textarea.span-14, input.span-15, textarea.span-15, input.span-16, textarea.span-16, input.span-17, textarea.span-17, input.span-18, textarea.span-18, input.span-19, textarea.span-19, input.span-20, textarea.span-20, input.span-21, textarea.span-21, input.span-22, textarea.span-22, input.span-23, textarea.span-23, input.span-24, textarea.span-24 { border-left-width: 1px !important; border-right-width: 1px !important; padding-left: 5px !important; padding-right: 5px !important; }
+
+input.span-1, textarea.span-1 { width: 18px !important; }
+
+input.span-2, textarea.span-2 { width: 58px !important; }
+
+input.span-3, textarea.span-3 { width: 98px !important; }
+
+input.span-4, textarea.span-4 { width: 138px !important; }
+
+input.span-5, textarea.span-5 { width: 178px !important; }
+
+input.span-6, textarea.span-6 { width: 218px !important; }
+
+input.span-7, textarea.span-7 { width: 258px !important; }
+
+input.span-8, textarea.span-8 { width: 298px !important; }
+
+input.span-9, textarea.span-9 { width: 338px !important; }
+
+input.span-10, textarea.span-10 { width: 378px !important; }
+
+input.span-11, textarea.span-11 { width: 418px !important; }
+
+input.span-12, textarea.span-12 { width: 458px !important; }
+
+input.span-13, textarea.span-13 { width: 498px !important; }
+
+input.span-14, textarea.span-14 { width: 538px !important; }
+
+input.span-15, textarea.span-15 { width: 578px !important; }
+
+input.span-16, textarea.span-16 { width: 618px !important; }
+
+input.span-17, textarea.span-17 { width: 658px !important; }
+
+input.span-18, textarea.span-18 { width: 698px !important; }
+
+input.span-19, textarea.span-19 { width: 738px !important; }
+
+input.span-20, textarea.span-20 { width: 778px !important; }
+
+input.span-21, textarea.span-21 { width: 818px !important; }
+
+input.span-22, textarea.span-22 { width: 858px !important; }
+
+input.span-23, textarea.span-23 { width: 898px !important; }
+
+input.span-24, textarea.span-24 { width: 938px !important; }
+
+.append-1 { padding-right: 40px; }
+
+.append-2 { padding-right: 80px; }
+
+.append-3 { padding-right: 120px; }
+
+.append-4 { padding-right: 160px; }
+
+.append-5 { padding-right: 200px; }
+
+.append-6 { padding-right: 240px; }
+
+.append-7 { padding-right: 280px; }
+
+.append-8 { padding-right: 320px; }
+
+.append-9 { padding-right: 360px; }
+
+.append-10 { padding-right: 400px; }
+
+.append-11 { padding-right: 440px; }
+
+.append-12 { padding-right: 480px; }
+
+.append-13 { padding-right: 520px; }
+
+.append-14 { padding-right: 560px; }
+
+.append-15 { padding-right: 600px; }
+
+.append-16 { padding-right: 640px; }
+
+.append-17 { padding-right: 680px; }
+
+.append-18 { padding-right: 720px; }
+
+.append-19 { padding-right: 760px; }
+
+.append-20 { padding-right: 800px; }
+
+.append-21 { padding-right: 840px; }
+
+.append-22 { padding-right: 880px; }
+
+.append-23 { padding-right: 920px; }
+
+.prepend-1 { padding-left: 40px; }
+
+.prepend-2 { padding-left: 80px; }
+
+.prepend-3 { padding-left: 120px; }
+
+.prepend-4 { padding-left: 160px; }
+
+.prepend-5 { padding-left: 200px; }
+
+.prepend-6 { padding-left: 240px; }
+
+.prepend-7 { padding-left: 280px; }
+
+.prepend-8 { padding-left: 320px; }
+
+.prepend-9 { padding-left: 360px; }
+
+.prepend-10 { padding-left: 400px; }
+
+.prepend-11 { padding-left: 440px; }
+
+.prepend-12 { padding-left: 480px; }
+
+.prepend-13 { padding-left: 520px; }
+
+.prepend-14 { padding-left: 560px; }
+
+.prepend-15 { padding-left: 600px; }
+
+.prepend-16 { padding-left: 640px; }
+
+.prepend-17 { padding-left: 680px; }
+
+.prepend-18 { padding-left: 720px; }
+
+.prepend-19 { padding-left: 760px; }
+
+.prepend-20 { padding-left: 800px; }
+
+.prepend-21 { padding-left: 840px; }
+
+.prepend-22 { padding-left: 880px; }
+
+.prepend-23 { padding-left: 920px; }
+
+div.border { padding-right: 4px; margin-right: 5px; border-right: 1px solid rgb(238, 238, 238); }
+
+div.colborder { padding-right: 24px; margin-right: 25px; border-right: 1px solid rgb(238, 238, 238); }
+
+.pull-1 { margin-left: -40px; }
+
+.pull-2 { margin-left: -80px; }
+
+.pull-3 { margin-left: -120px; }
+
+.pull-4 { margin-left: -160px; }
+
+.pull-5 { margin-left: -200px; }
+
+.pull-6 { margin-left: -240px; }
+
+.pull-7 { margin-left: -280px; }
+
+.pull-8 { margin-left: -320px; }
+
+.pull-9 { margin-left: -360px; }
+
+.pull-10 { margin-left: -400px; }
+
+.pull-11 { margin-left: -440px; }
+
+.pull-12 { margin-left: -480px; }
+
+.pull-13 { margin-left: -520px; }
+
+.pull-14 { margin-left: -560px; }
+
+.pull-15 { margin-left: -600px; }
+
+.pull-16 { margin-left: -640px; }
+
+.pull-17 { margin-left: -680px; }
+
+.pull-18 { margin-left: -720px; }
+
+.pull-19 { margin-left: -760px; }
+
+.pull-20 { margin-left: -800px; }
+
+.pull-21 { margin-left: -840px; }
+
+.pull-22 { margin-left: -880px; }
+
+.pull-23 { margin-left: -920px; }
+
+.pull-24 { margin-left: -960px; }
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12, .pull-13, .pull-14, .pull-15, .pull-16, .pull-17, .pull-18, .pull-19, .pull-20, .pull-21, .pull-22, .pull-23, .pull-24 { float: left; position: relative; }
+
+.push-1 { margin: 0px -40px 1.5em 40px; }
+
+.push-2 { margin: 0px -80px 1.5em 80px; }
+
+.push-3 { margin: 0px -120px 1.5em 120px; }
+
+.push-4 { margin: 0px -160px 1.5em 160px; }
+
+.push-5 { margin: 0px -200px 1.5em 200px; }
+
+.push-6 { margin: 0px -240px 1.5em 240px; }
+
+.push-7 { margin: 0px -280px 1.5em 280px; }
+
+.push-8 { margin: 0px -320px 1.5em 320px; }
+
+.push-9 { margin: 0px -360px 1.5em 360px; }
+
+.push-10 { margin: 0px -400px 1.5em 400px; }
+
+.push-11 { margin: 0px -440px 1.5em 440px; }
+
+.push-12 { margin: 0px -480px 1.5em 480px; }
+
+.push-13 { margin: 0px -520px 1.5em 520px; }
+
+.push-14 { margin: 0px -560px 1.5em 560px; }
+
+.push-15 { margin: 0px -600px 1.5em 600px; }
+
+.push-16 { margin: 0px -640px 1.5em 640px; }
+
+.push-17 { margin: 0px -680px 1.5em 680px; }
+
+.push-18 { margin: 0px -720px 1.5em 720px; }
+
+.push-19 { margin: 0px -760px 1.5em 760px; }
+
+.push-20 { margin: 0px -800px 1.5em 800px; }
+
+.push-21 { margin: 0px -840px 1.5em 840px; }
+
+.push-22 { margin: 0px -880px 1.5em 880px; }
+
+.push-23 { margin: 0px -920px 1.5em 920px; }
+
+.push-24 { margin: 0px -960px 1.5em 960px; }
+
+.push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12, .push-13, .push-14, .push-15, .push-16, .push-17, .push-18, .push-19, .push-20, .push-21, .push-22, .push-23, .push-24 { float: right; position: relative; }
+
+.prepend-top { margin-top: 1.5em; }
+
+.append-bottom { margin-bottom: 1.5em; }
+
+.box { padding: 1.5em; margin-bottom: 1.5em; background: rgb(229, 236, 249); }
+
+hr { background: rgb(221, 221, 221); color: rgb(221, 221, 221); clear: both; float: none; width: 100%; height: 0.1em; margin: 0px 0px 1.45em; border: none; }
+
+hr.space { background: rgb(255, 255, 255); color: rgb(255, 255, 255); }
+
+.clearfix::after, .container::after { content: " "; display: block; height: 0px; clear: both; visibility: hidden; overflow: hidden; }
+
+.clearfix, .container { display: block; }
+
+.clear { clear: both; }
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/stylesheets/blueprint/print.css?1366183229
+
+@charset "utf-8";
+
+body { line-height: 1.5; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); background: none; font-size: 10pt; }
+
+.container { background: none; }
+
+hr { background: rgb(204, 204, 204); color: rgb(204, 204, 204); width: 100%; height: 2px; margin: 2em 0px; padding: 0px; border: none; }
+
+hr.space { background: rgb(255, 255, 255); color: rgb(255, 255, 255); }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
+
+code { font: 0.9em "Courier New", Monaco, Courier, monospace; }
+
+img { float: left; margin: 1.5em 1.5em 1.5em 0px; }
+
+a img { border: none; }
+
+p img.top { margin-top: 0px; }
+
+blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: 0.9em; }
+
+.small { font-size: 0.9em; }
+
+.large { font-size: 1.1em; }
+
+.quiet { color: rgb(153, 153, 153); }
+
+.hide { display: none; }
+
+a:link, a:visited { background: transparent; font-weight: 700; text-decoration: underline; }
+
+a:link::after, a:visited::after { content: " (" attr(href) ")"; font-size: 90%; }
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/themes/basecamp/stylesheets/application.css?1366183196
+
+@charset "windows-1252";
+
+
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/stylesheets/jstoolbar.css?1366183229
+
+@charset "utf-8";
+
+.jstEditor { padding-left: 0px; }
+
+.jstEditor textarea, .jstEditor iframe { margin: 0px; }
+
+.jstHandle { height: 10px; font-size: 0.1em; cursor: s-resize; }
+
+.jstElements { padding: 3px; }
+
+.jstElements button { margin-right: 6px; width: 24px; height: 24px; padding: 4px; border-style: solid; border-width: 1px; border-color: rgb(221, 221, 221); background-color: rgb(247, 247, 247); background-position: 50% 50%; background-repeat: no-repeat; }
+
+.jstElements button:hover { border-color: rgb(0, 0, 0); }
+
+.jstElements button span { display: none; }
+
+.jstElements span { display: inline; }
+
+.jstSpacer { width: 0px; font-size: 1px; margin-right: 4px; }
+
+.jstElements .help { float: right; margin-right: 1em; padding-top: 8px; font-size: 0.9em; }
+
+.jstb_strong { background-image: url("../images/jstoolbar/bt_strong.png"); }
+
+.jstb_em { background-image: url("../images/jstoolbar/bt_em.png"); }
+
+.jstb_ins { background-image: url("../images/jstoolbar/bt_ins.png"); }
+
+.jstb_del { background-image: url("../images/jstoolbar/bt_del.png"); }
+
+.jstb_code { background-image: url("../images/jstoolbar/bt_code.png"); }
+
+.jstb_h1 { background-image: url("../images/jstoolbar/bt_h1.png"); }
+
+.jstb_h2 { background-image: url("../images/jstoolbar/bt_h2.png"); }
+
+.jstb_h3 { background-image: url("../images/jstoolbar/bt_h3.png"); }
+
+.jstb_ul { background-image: url("../images/jstoolbar/bt_ul.png"); }
+
+.jstb_ol { background-image: url("../images/jstoolbar/bt_ol.png"); }
+
+.jstb_bq { background-image: url("../images/jstoolbar/bt_bq.png"); }
+
+.jstb_unbq { background-image: url("../images/jstoolbar/bt_bq_remove.png"); }
+
+.jstb_pre { background-image: url("../images/jstoolbar/bt_pre.png"); }
+
+.jstb_link { background-image: url("../images/jstoolbar/bt_link.png"); }
+
+.jstb_img { background-image: url("../images/jstoolbar/bt_img.png"); }
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/stylesheets/scm.css?1366183229
+
+@charset "utf-8";
+
+div.changeset-changes ul { margin: 0px; padding: 0px; }
+
+div.changeset-changes ul > ul { margin-left: 18px; padding: 0px; }
+
+li.change { list-style-type: none; background-image: url("../images/bullet_black.png"); background-position: 1px 1px; background-repeat: no-repeat; padding-top: 1px; padding-bottom: 1px; padding-left: 20px; margin: 0px; }
+
+li.change.folder { background-image: url("../images/folder_open.png"); }
+
+li.change.folder.change-A { background-image: url("../images/folder_open_add.png"); }
+
+li.change.folder.change-M { background-image: url("../images/folder_open_orange.png"); }
+
+li.change.change-A { background-image: url("../images/bullet_add.png"); }
+
+li.change.change-M { background-image: url("../images/bullet_orange.png"); }
+
+li.change.change-C { background-image: url("../images/bullet_blue.png"); }
+
+li.change.change-R { background-image: url("../images/bullet_purple.png"); }
+
+li.change.change-D { background-image: url("../images/bullet_delete.png"); }
+
+li.change .copied-from { font-style: italic; color: rgb(153, 153, 153); font-size: 0.9em; }
+
+li.change .copied-from::before { content: " - "; }
+
+#changes-legend { float: right; font-size: 0.8em; margin: 0px; }
+
+#changes-legend li { float: left; background-position: 5px 0px; }
+
+table.filecontent { border: 1px solid rgb(204, 204, 204); border-collapse: collapse; width: 98%; background-color: rgb(250, 250, 250); }
+
+table.filecontent th { border: 1px solid rgb(204, 204, 204); background-color: rgb(238, 238, 238); }
+
+table.filecontent th.filename { background-color: rgb(228, 228, 212); text-align: left; padding: 0.2em; }
+
+table.filecontent tr.spacing th { text-align: center; }
+
+table.filecontent tr.spacing td { height: 0.4em; background: rgb(234, 242, 245); }
+
+table.filecontent th.line-num { border: 1px solid rgb(215, 215, 215); font-size: 0.8em; text-align: right; width: 2%; padding-right: 3px; color: rgb(153, 153, 153); }
+
+table.filecontent th.line-num a { text-decoration: none; color: inherit; }
+
+table.filecontent td.line-code pre { margin: 0px; white-space: pre-wrap; }
+
+table.annotate tr.bloc-0 { background: rgb(255, 255, 191); }
+
+table.annotate tr.bloc-1 { background: rgb(234, 191, 255); }
+
+table.annotate tr.bloc-2 { background: rgb(191, 255, 255); }
+
+table.annotate tr.bloc-3 { background: rgb(255, 217, 191); }
+
+table.annotate tr.bloc-4 { background: rgb(230, 255, 191); }
+
+table.annotate tr.bloc-5 { background: rgb(191, 207, 255); }
+
+table.annotate tr.bloc-6 { background: rgb(255, 191, 239); }
+
+table.annotate tr.bloc-7 { background: rgb(255, 230, 191); }
+
+table.annotate tr.bloc-8 { background: rgb(255, 230, 128); }
+
+table.annotate tr.bloc-9 { background: rgb(170, 128, 255); }
+
+table.annotate tr.bloc-10 { background: rgb(255, 191, 220); }
+
+table.annotate tr.bloc-11 { background: rgb(191, 228, 255); }
+
+table.annotate td.revision { text-align: center; width: 2%; padding-left: 1em; background: inherit; }
+
+table.annotate td.author { text-align: center; border-right: 1px solid rgb(215, 215, 215); white-space: nowrap; padding-left: 1em; padding-right: 1em; width: 3%; background: inherit; font-size: 90%; }
+
+table.annotate td.line-code { background-color: rgb(250, 250, 250); }
+
+div.action_M { background: rgb(255, 221, 136); }
+
+div.action_D { background: rgb(255, 136, 136); }
+
+div.action_A { background: rgb(187, 255, 187); }
+
+.syntaxhl div { display: inline; }
+
+.syntaxhl .no { padding: 2px 4px; background-color: rgb(238, 238, 238); margin: 0px; }
+
+.syntaxhl .code pre { overflow: auto; }
+
+.syntaxhl .debug { color: white !important; background: blue !important; }
+
+.syntaxhl .af { color: rgb(0, 0, 204); }
+
+.syntaxhl .an { color: rgb(0, 0, 119); }
+
+.syntaxhl .at { color: rgb(255, 0, 136); }
+
+.syntaxhl .av { color: rgb(119, 0, 0); }
+
+.syntaxhl .aw { color: rgb(204, 0, 0); }
+
+.syntaxhl .bi { color: rgb(85, 0, 153); font-weight: bold; }
+
+.syntaxhl .c { color: rgb(136, 136, 136); }
+
+.syntaxhl .ch { color: rgb(0, 68, 221); }
+
+.syntaxhl .ch .k { color: rgb(0, 68, 221); }
+
+.syntaxhl .ch .dl { color: rgb(0, 51, 153); }
+
+.syntaxhl .cl { color: rgb(187, 0, 102); font-weight: bold; }
+
+.syntaxhl .cm { color: rgb(170, 0, 136); font-weight: bold; }
+
+.syntaxhl .co { color: rgb(0, 51, 102); font-weight: bold; }
+
+.syntaxhl .cr { color: rgb(0, 170, 0); }
+
+.syntaxhl .cv { color: rgb(51, 102, 153); }
+
+.syntaxhl .de { color: rgb(187, 0, 187); }
+
+.syntaxhl .df { color: rgb(0, 153, 153); font-weight: bold; }
+
+.syntaxhl .di { color: rgb(0, 136, 136); font-weight: bold; }
+
+.syntaxhl .dl { color: black; }
+
+.syntaxhl .do { color: rgb(153, 119, 0); }
+
+.syntaxhl .dt { color: rgb(51, 68, 187); }
+
+.syntaxhl .ds { color: rgb(221, 68, 34); font-weight: bold; }
+
+.syntaxhl .e { color: rgb(102, 102, 102); font-weight: bold; }
+
+.syntaxhl .en { color: rgb(136, 0, 0); font-weight: bold; }
+
+.syntaxhl .er { color: rgb(255, 0, 0); background-color: rgb(255, 170, 170); }
+
+.syntaxhl .ex { color: rgb(204, 0, 0); font-weight: bold; }
+
+.syntaxhl .fl { color: rgb(102, 0, 238); font-weight: bold; }
+
+.syntaxhl .fu { color: rgb(0, 102, 187); font-weight: bold; }
+
+.syntaxhl .gv { color: rgb(221, 119, 0); font-weight: bold; }
+
+.syntaxhl .hx { color: rgb(0, 85, 136); font-weight: bold; }
+
+.syntaxhl .i { color: rgb(0, 0, 221); font-weight: bold; }
+
+.syntaxhl .ic { color: rgb(187, 68, 68); font-weight: bold; }
+
+.syntaxhl .il { background: rgb(221, 221, 221); color: black; }
+
+.syntaxhl .il .il { background: rgb(204, 204, 204); }
+
+.syntaxhl .il .il .il { background: rgb(187, 187, 187); }
+
+.syntaxhl .il .idl { background: rgb(221, 221, 221); font-weight: bold; color: rgb(102, 102, 102); }
+
+.syntaxhl .idl { background-color: rgb(187, 187, 187); font-weight: bold; color: rgb(102, 102, 102); }
+
+.syntaxhl .im { color: rgb(255, 0, 0); }
+
+.syntaxhl .in { color: rgb(187, 34, 187); font-weight: bold; }
+
+.syntaxhl .iv { color: rgb(51, 51, 187); }
+
+.syntaxhl .la { color: rgb(153, 119, 0); font-weight: bold; }
+
+.syntaxhl .lv { color: rgb(153, 102, 51); }
+
+.syntaxhl .oc { color: rgb(68, 0, 238); font-weight: bold; }
+
+.syntaxhl .of { color: rgb(0, 0, 0); font-weight: bold; }
+
+.syntaxhl .op { }
+
+.syntaxhl .pc { color: rgb(0, 51, 136); font-weight: bold; }
+
+.syntaxhl .pd { color: rgb(51, 102, 153); font-weight: bold; }
+
+.syntaxhl .pp { color: rgb(85, 119, 153); }
+
+.syntaxhl .ps { color: rgb(0, 0, 204); font-weight: bold; }
+
+.syntaxhl .pt { color: rgb(0, 119, 68); font-weight: bold; }
+
+.syntaxhl .r, .kw { color: rgb(0, 136, 0); font-weight: bold; }
+
+.syntaxhl .ke { color: rgb(136, 0, 136); }
+
+.syntaxhl .ke .dl { color: rgb(102, 0, 102); }
+
+.syntaxhl .ke .ch { color: rgb(136, 0, 255); }
+
+.syntaxhl .vl { color: rgb(0, 136, 136); }
+
+.syntaxhl .rx { background-color: rgb(255, 240, 255); }
+
+.syntaxhl .rx .k { color: rgb(136, 0, 136); }
+
+.syntaxhl .rx .dl { color: rgb(68, 0, 68); }
+
+.syntaxhl .rx .mod { color: rgb(204, 34, 204); }
+
+.syntaxhl .rx .fu { color: rgb(68, 0, 68); font-weight: bold; }
+
+.syntaxhl .s { background-color: rgb(255, 240, 240); color: rgb(221, 34, 0); }
+
+.syntaxhl .s .s { background-color: rgb(255, 224, 224); }
+
+.syntaxhl .s .s .s { background-color: rgb(255, 208, 208); }
+
+.syntaxhl .s .k { }
+
+.syntaxhl .s .ch { color: rgb(187, 0, 187); }
+
+.syntaxhl .s .dl { color: rgb(119, 17, 0); }
+
+.syntaxhl .sh { background-color: rgb(240, 255, 240); color: rgb(34, 187, 34); }
+
+.syntaxhl .sh .k { }
+
+.syntaxhl .sh .dl { color: rgb(17, 102, 17); }
+
+.syntaxhl .sy { color: rgb(170, 102, 0); }
+
+.syntaxhl .sy .k { color: rgb(170, 102, 0); }
+
+.syntaxhl .sy .dl { color: rgb(102, 51, 0); }
+
+.syntaxhl .ta { color: rgb(0, 119, 0); }
+
+.syntaxhl .tf { color: rgb(0, 119, 0); font-weight: bold; }
+
+.syntaxhl .ts { color: rgb(221, 119, 0); font-weight: bold; }
+
+.syntaxhl .ty { color: rgb(51, 51, 153); font-weight: bold; }
+
+.syntaxhl .v { color: rgb(0, 51, 102); }
+
+.syntaxhl .xt { color: rgb(68, 68, 68); }
+
+.syntaxhl .ins { background: rgb(204, 255, 204); }
+
+.syntaxhl .del { background: rgb(255, 204, 204); }
+
+.syntaxhl .chg { color: rgb(170, 170, 255); background: rgb(0, 0, 119); }
+
+.syntaxhl .head { color: rgb(255, 136, 255); background: rgb(85, 0, 85); }
+
+.syntaxhl .ins .ins { color: rgb(0, 136, 0); font-weight: bold; }
+
+.syntaxhl .del .del { color: rgb(136, 0, 0); font-weight: bold; }
+
+.syntaxhl .chg .chg { color: rgb(102, 102, 255); }
+
+.syntaxhl .head .head { color: rgb(255, 68, 255); }
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/themes/basecamp/stylesheets/main.css?1366183196
+
+@charset "windows-1252";
+
+
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/images/guides/has_many.png
+
+‰PNG
+
+   IHDR  ô   È   è   sRGB ®Îé   bKGD ÿ ÿ ÿ ½§“   	pHYs     šœ   tIMEÙ‰Åñ    IDATxÚíİyXUå6ş{3lPæQDQMEË©Ô0Jœ25õ¤VZNNïy-š3óWÇñ×)5)3‡'œg,@À!AD™aÏû²[f%e¸?×µ/e­½×³÷³‡ïš{É„DDDÔ¤é±ˆˆˆXĞ‰ˆˆˆˆˆˆXĞ‰ˆˆˆˆˆˆˆˆˆXĞ‰ˆˆˆˆˆˆXĞ‰ˆˆXĞ‰ˆˆ¨‘1`µL%%%¸p!ò “z2v
+5*j­€@sôê SSSvJdÌr'jyÎŸ?»÷²¡40C‰Ü*=chdz XÔ©±ĞZjËĞJ•Ce!ìíìØ‹]Ã‚ND p8úŠJÈ5uJÏˆBM‚\[†6%é031ÂàA/±CªÀcèD-ÈåË—QXª@¶™;‹95)J=cd·j¢RâããÙ!,èD-—J¥ÂŸéwÛª´üêS¤•é#ÇÔi7nA¥R±CÃ]îD-ÄÉ“§p·D‹\#‡Jóş»¨~?míåè7ê&ÌÛÚÀÈ„'*Ñ³ÕV‘	‡Vzè×¯;ã<Ë¨…¸Ÿû %f.UÎëÔÍzz€Löğ¤¸ŠÕ|ÙÃÿ?üW+ÊÏ:6³ÔÇï1§àĞ6NíØ¹ôL•˜#;ç6;‚¨eÒ“¡ÚãæcfÚ"¸sùÏV mÅ¿- €ZS>ŒH©&—`Ûê[(óíÎ¥gN¥g²dA'j±ôõdĞÈô«œ'…%jüy¯*€¾¾,Z"óATj+dæ–B¡ğp2‡F¥f‡ÒS)+ÈA~FZ÷±pê cs«JÓ52}è³¢³ µlUÿj…€F e*-Jôa,7@©B…ZÀL¥E±B¥B…ÂÒR¨”Ê[¹—~îC×^‚s/äfãÔo¿ “_/xtí‰»·Òp!z/J‹áÜÁ½ÃP^¾÷ ?çÎDíDáƒtô@·şC!“É›•swÃ»g_Ü¹qÖ.°hkSír¨q“·2Ç½äËP•U9ßĞÄ6üëõ9fA˜HÕ|1É©yĞj4Ğh R—p­PC©‘C¡P¨ÔP¨J-T*%ÊFĞ¨k>‰.ëöìùnÚØØÃ¹ƒòsïcÏwk<õC˜·µÆ²!0iÕÖÎ8†Ø“‡ğŞòMÈÏ¹‡¥ÓGA&“ÁÚÑG"¶â¥×'aÌìâ~f:ö|·îÃ×0`Ô›8³g•Ë¡ÆOOß]ûáÖùıUÎwìÚzú†ì¨ÆTĞu©Ì\˜HÕ¬ü/ÉIS–‡C‡£™äÔDi4Zéx¹FÈdÿ;f®Ö * Ö>¼i µZóÄm%_9•¢¯N™ƒ—FOÆ¹ı‘¸‘­Fƒ£‘? 0/ŸmÙ{Wwl^>G#À°	ïH726Á’m‡{:ºÚåèéëóMm¬Ü}}í
+JdéL7mc+wvP}W’şÊ…>‚Ìì\ä´rC®‰Êô[=<†ÇbŞ<”“-Óo…c'äš¹!3;‡£°kšÚºZ]^Ì§Ñ
+¨„xXÔÿWØ+ŠºVıäÇĞ=ºö„©™9"6®ÄÇÁ¸zşüƒ†AO_é©I €MŸÎÆ¿Şß/œ„wn¤Hï>àeØ8µƒo`PµË¡¦óâÜ}`¥©åÓX'ÍzE"Õ}3w†X´IN(¾øøxtíÚ•ÒT
+ºFÕÃ-q•F! µPj µF¥ZµFµF@¥ĞÔ± WÄ\íÿ¶èÚy`ù¸zşâNE#îôaÄÆ’°hèBßÀ ¯ÏœÙ#¿çÎŞÈ¼Y^Ô+
+vMË±vpæ›ÚD˜ÙºÀÂÉù©  '˜Ùº°cË:©Zpa`’S“¤Vi Ò¥J5”
+ÊJ”–•A©P@©T ´´J•j•úaA¯y—{EØÌÕóÇ‘–„#;·Jóv»ŸN‹¶¶÷Á"ôxq„P*JáÑµ'4j5”e%p÷ñGìÉCØõÿYåVwMË¡¦ÅÙ dzzééÁÙ ;¤1m¡Ÿ;w*#s¨e•Oh`"U(zr¨-pşüy&95•÷L­Z­‘¾B_È µJ	= /ş_™¡4Z@hj.èî>şpr÷Äåãûqùø~tê(Í2
+çîÂª&HÓúC;Ø8¸àê¹cØôÙ €¡‘1&|øZµ¶¨ÔFMË¡¦Å¨uØtô—şO¨ 3‘ªv¹Ù00”Ã´Šªæ€INMm]CC=Ø[›¡¬Ìj­€FèÁÖÈ¸¼ØŒLeå'ÌéBhµ5ÿ°Ê±`ÃNÜHŒƒ‘‰)\<:ÿï;`éGp;õ”ÀÊŞvÎnRÿğË-HOKBIa>\<¼¥ïH§nØpôš´ûvª]5=ö¾}Ø	± 3‘ªvsßèÿ a˜±ø›fùÁb’SÓr?·ûÎÜ†F£V£…B[~\+*ş–A<\/-QÔşãb(GÇ®UÎÓ70€›WÕçXÈd2¸xx×éy×´jbÅHnÌNhŒıY&RUXx÷xÉ±çQ”—‹^ƒ_…k'_ ÀíÔD\:¶eÅE°oç>/¿#cœúíäfcØøw o`€Ì[©¸râ üú‚ÜØ1Ñ¿¢S·@¤ÄÇ ¤ }^yj¥çíiksy­Z[Ô‚áéß·Sş@Vúxú÷A·~ƒqõü	 Àƒ{™¸™7¯®5m</LrjA[èÚÛ8}ô²3nÕù16Ní`ÌÃ`DÍ» ?,İUNmèDªŠ ‹èğÍ0”¡¸0G"¶âãÿ/FÆ¦X1ë˜šYÀÒÆÇv…!ùÊ9ÌXü²n_Ç¡Ÿÿ.=Ğ©[ Nÿöÿò=z{™7S±ç»5026©¹%ÜËÄé¨ĞjÔ021E~N6n§üñ~VkF+sK¢¤° G#~Àì‹˜è½ €ìŒ[Hº|¦fæÕm<OLrj9ÌÛÚÀ' _½ö„›˜Â¼­;¨‘xæ§ —'RAJ¤RªÔPjDy"•ò‰TJ•e
+u­‰T\;vÆç?Ã‚õáZ-ıü_äÜM‡ÿ¡˜¿>6ì„“{'\ÿı2  ×à` @Ü™ò1ÓW/œ@ßîhkë(-³ïˆ1Xşóqô9%…ù˜ú¾ÄŠ_NÂÆÑ·’¯J!_³sÿó3z}G#@~Î=i¾°â—S˜½ò¿ €k±ğöÂ/  ü{ãå	3¤ Á¡oãïk¶áÍ¿ÿæmm Õhï‡ãa’Su˜äô|DFF";;»A—idb
+§vpñğ®óÍÆ©OT%jÉıñD*)yê)©ºõ
+==}8¶ï;Ww¤§&Â'p œ;xcËŠyøäµŞÈ¸~B[~Ğ¹ƒÚy şt4r³2p÷V½ª³L;—ö €V­- ö®îÉô`bf!DB0\;–Ÿdeçôp…¦ò!„š‚67+w˜¶±«4INÏÇ­[·0kÖ,äää°3ˆè9o¡ÿE‰TÊ²ò±§B(JK 72Á7a×·_Â·÷@Ì]»]{J÷—Éd2
+ÙwşÄáßC&ÓC÷Ãt–ùèY¹UııhÆ³æaÊ‚cö¿¿…ó£'ôÈjßõ\ñ·O×Àï…AH¼xkü÷3ÓÁG„INÅäÉ“áïï¬¬,v5‚‚şX"•J­mDªã»Äí”?p,rÜË„Wp/ı&  C—î(ÌËÅ­ä«:é5x$ àØ®0xõèó6Öõz-õ	Á¨n%Dm£È¨HrªÀ$§çcË–-ÈÍÍ…““;ƒˆ*yæ—O}<‘J­'“©TjJKõ¡T) ©c"U…Ö–m±ì×  í;aÄ¤÷pı÷+ˆ‰ş_¼?æmm`mïŒì;"?ç,¬lÑÖÎ	]z 5á^Yï×2pÔ„:‡`<Î±}'ü~á¶­ú¿2fj£Èpö€‚ÌëÒÿ©ir*Jf'± 7PAoàDª
+AÁãñÖÜÏQRX€öŞ~Ğ70@—>/bIØaÜÏ¼7¯®UÀãæÕ7ãÑ­ÿišO¯  ‹wşwş!ı½pc„ôÿº†`XÙ;éüıÉ7?áfRl]`íàÒè2˜äÔô]ºt	Ÿ~ú);‚š…Å‹cäÈ‘ìˆç»…Ş°‰T:[½n+M³²w‚•}Õ»(7/Ÿ‹KÇ÷Ã¯ß`˜š™?Ñë©OÆ£LZµ†w¤¿›B@“œˆˆXĞ%HÕÆÖ}‡‡Âö	¶håFú6^zc?	uù°0É©Y+¾ù	 -„±ëjèé›T:	”ˆXĞu·Ğ8‘Ê¹ƒŞúdÙ=—7?^ÂO €âk!×WA ŠøP¸GkK7èşDhµå+İúø©}¸'MO¯òy¶jµZº¿F£©´ÌŠùšj¯Éd²JíQ#(èL¤"z:éé;œ±ìî&ÛxA[š™ÌÆ†÷‘“öDÇĞ¦M-õƒbóæÍØ¾}»Î2V®\	ccc|øá‡•WºqêÔ)¨Õjx{{cß¾}xå•W¤ù^^^8vìfÏ˜˜¨ÕjdggÃÁÁ 0gÎÌ;—o<Qc+è‰TDÔ8ÈôL ´yĞ×PxP«QZ\ u~>,,,t¶û÷ïnİº=q[–––xï½÷333y‘‘‘ €›7o¢_¿~¾âBÔÜé±ˆZ6#Û·PœuZE1DQ!
+Ë
+‘3¹ÊcèüñÖ¯_­V‹ùóçÃÃÃ/¼ğêÔV‡ğê«¯âŸÿü';ˆ¨eZ±bd2Ùİ,XPóÂÍ¦@¦o„Ò¢\\Í
+„½£7,,,*ÏÏÏGrr26oŞŒ³gÏ"66?ÿü3=Zç×±téRìŞ½.\à›JÄ‚NÔòÜ½{÷©Vj"—Ë òå³Ğ®];´nİºÚ3İ£¢¢0{öl˜™™ÁÅÅãÇ¯ósiİº5Ö®]‹éÓ§CYËÕ‰¨îş²cèL¤"jXvvvOüØùóç×8¿¢pë‰R´±4CëÖ­+ş(¥R©s¼uëÖõz>Ã‡Ç¶mÛğÅ_ğ%jÌ‰T0Ééi©Õj<xğ 66å#<,XPû®óZŞÚ™D~üıı±oß>¼üòËĞjµ8tèBCCëõ|Ö¬YñÍ&j ÜåNÔÅÇÇ£wïŞøòË/ŸI{ÆvSPš—‰<Yw˜˜˜Ô:î{öìÙˆÆÈ‘#ôDãÄmmm±|ùrğ'j¬[èµa"QÕ”J%–/_uëÖaÅŠxûí·ŸYÛ§¨s`obR~L½
+ƒÆàÁƒ W®\Á•+W`ccww÷j—ûè±ÿ‹/êÌ›4i&MÒMjtssã5¢¦PĞ™HETµK—.aêÔ©pssÃ•+WàèèøLÛ·°°€……Eï/—ËÈ7¨‘x¦»Ü+©`b™ÜÆ†f(Jû BèÜ÷àÁƒxóÍ7+-cåÊ•øúë¯«\¾³³3ÒÒÒœœCCCDEEéÌ÷òòBFFBCCáæægggÁÍÍnnnÏl÷&‘Î÷¢¬.Äˆ#0oŞ<ìŞ½û™s"âz½0‘ŠH×Ù³g1mÚ4øúú">>¶¶¶ì"jü[èL¤"úFƒ¹sçbÉ’%Ø±c‹95-t ©~,O¤ºß¯^‰T<@`` êÔÔÒ¥KÑµkWL˜0½zõâ»MŠ¾¾>N<É ¢¦·…0‘ŠZ®ÂÂBüğÃì"jıy$Rùúú2‘Š«C‡ÁÏÏÇ—Fj5é‚^¡¾‰T ¤DªúZ³fÖ­[‡ììl¾ãôLåççcúôé˜1c6lØ€o¿ı¶Ê!—DDM® 3‘ŠZŠß~û¾¾¾022B\\†Ú,^—
+…Z­¶ÚL‡¦F£ÑTÚs"„€Z­®4¤V­VWº¯Z­Ö¹U'++iii:÷©hçqÙvE®Ç“ôË“<ß—³Á}öÙg5ÎÏËËiiiâÎ;B¡PÔº<…B!Î;'ÒÒÒ5µ}š«œœ1qâDááá!;ÖdŞœü|ñİ¾}â^n®P*•UŞG«ÕŠşıû‹Ñ£G‹¨¨(1vìØ:·¯P(Ä¯¿şÚ(ß³ıë_bêÔ©:Ó„½½½P«ÕÒ´””@|òÉ':÷Õ××ÂÉÉI888;;;ñõ×_KóoŞ¼)úôé#:uê$ºwï.¤¾ÈÌÌ•“………ÈÎÎ~ê¶µZ­xë­·DII‰Îã¶mÛ&V­Z%ı"zôè!İ®\¹"öîİ+¶nİÊß—&ìhâ®áìÚµK888ˆ>úH7™÷ã~^Øvâ„8¥R‰U¿ı&RnŞ¬re»´´T8;;!„(**™™™unÿÁƒÂÓÓ³Q¾oiii¢M›6¢¬¬Lšöé§ŸŠ9sæTêÃáÃ‡ggg¡ÑhtŠjaa¡ôwbb¢044999B£Ñ±qãFiş…„•••(,,¬sA’¶…"""B|õÕW:Ë¾víš077|ğBF#ìììDbb¢t+..Z­V6L§_øûÒxñ`QR*•Ø¹s'V¯^SSÓ&ñœsòóq >ıúA©¯·¡Cñ}BnŞ¹SitÈìÙ³‘I“&IYñññX¼x1BBB°téRâÍ7ß„§§'ºwï'N  Ş}÷]üùçŸ˜1cFµÏ%>>‹-Â¤I“àëë‹C«ÕbŞ¼yğööF§Nğ÷¿ÿBÄÇÇã“O>ÁèÑ£Ñ©S',X° Ÿ|ò	üüü0pà@<xğ  °uëVøùùÁËËK—.­´Ùİİ;wÆ¤i;wîÔU#„À¶mÛ°lÙ2XZZÖ8äĞÓÓ&&&())ÁÉ“'!“ÉğÎ;ïHó°bÅ
+äååÕù0Ç“´ 7nÄØ±cu>£Ó¦MÃäÉ“¥iprr‚½½=,--áååSSSÈd2aÏ=ür7ì¢†SßKˆ6†b¾ÿa1/P @_æÃ†á«ƒñ!€öÒÅZ¾ùæ:t[·nÅáÃ‡‘œœŒ‚‚¬Zµ
+
+
+Â¦M›`bb‚ÄÄD9rß~û-‚‚‚°nİ:\¾|7n¬öù`Íš5ˆ‰‰AÇñÊ+¯`ß¾}pssÃ™3gpåÊ!Ğ«W/$%%¡   [·nE\\är9œœœğı÷ßcåÊ•xíµ×OOO|ñÅ8räŒ1räHtìØQ§ÈÀÄ‰ñÓO?!88ÉÉÉ(**ÒÉª‰‰±±1üüüŠüæoß¾ÆÆÆĞjµ8qâBCCáììŒğğğ*s0¦OŸ üâ5¥¥¥øÇ?ş¡3¿´´ô©Û.++CFF¤û.Z´ãÆƒ’’’  iii¸~ı:^yåÀÁÁ»ví‚™™úöí‹-[¶4¹ÏvKÄ-t¢'tçÎ„††âÚµkMö5D:·>}P À} ÷„@! y—.ø9&ùùùµ.'00C†‘‘\]]qìØ1lÚ´	®®®Øºuk½SŸ>}àéé	===x{{C¡P    û÷ïÇåË—ñÓO?!''
+…BjÛŞŞmÛ¶EÛ¶m™L(•Jìİ»¾¾¾8~ü88 =z´Ê•± ¸¸ááá7nœN>FXXüüükkküòË/:{0âãã‹¸¸8üşûïRÕh4u:™·gÏ:·Gó¤m_¿~]çº ÑÑÑHLLÄ¬Y³tÚ¶³³Ã¦M›pöìY\½zÖÖÖX·n  }ûöHNNæ[èDÍ›7oÆüùóñî»ïÂÍÍ­É¾–¾}ñCt4\B¾>î	µÅYYÀ‘#èçêª³¥XG³"FDFFbôèÑğööÆÏ?ÿ\ççdbbRiÚÅ‹1~üx„„„ÀÇÇ®®®ÿÛ*yd L&“ş®(Æ»ì+.ãÚ¹sgxzzVjÃÊÊ
+ÀŞ½{-[¶HóÔj5¶oß#F << ĞªU+ìß¿ÁÁÁ €Ï?ÿ\ê‡œœ¸»»cÉ’%èÜ¹3"""*µ7nÜ8„„„`À€044Ä¸qãtæÏœ9ó©ÛV*•044”–ùŸÿüééé2dÒÓÓQ\\ccc¬X±ŞŞŞR¿>Ç 2˜‹¨ùùóÏ?ñÎ;ïàşıû8|ø0ºtéÒ¤_…™^õöÆ÷ õĞ¡(Pœ•ÍáÃxÙÖVVVõsZ»v-œ±|ùr,Y²–––O]vïŞéÓ§cŞ¼yĞh4X½zuëïï;wîàı÷ß ¬^½ºÚ•”‰'bÙ²eP*•:ïíáÃ‡áää„ï¾ûNšöùçŸãÇ”Šêã+Ğjµ4hŞ{ï=ìØ±cÆŒ $%%!**
+_}õU­ÏÿiÚvqqÑ¹ıÆ¥cëaaaHKKÃG}„U«V¡¤¤‹-’V |||  ™™™:+PÔxq—;Q·Ê×¯_={bàÀ8wî\“/æ ``` {{LòñÁÍƒQ˜™	—mmáìì˜››×k™]ºtÁÌ™31eÊ8&L€\.‡\.Ç½{÷è2ÅƒÆúõë1gÎi—ú†êôØĞĞPÜ¿C†ÁèÑ£¦süùQ#FŒÀõë×1~üøJ»Û3föìÙƒÂÂÂ*—emm'N@.—#""óæÍCÿşıŒàë¯¿Ö9¶]§iÛÊÊ
+2™LZ±µµ•.meesssØÙÙaâÄ‰Ø±cBBB0|øpÄÆÆJ{._¾ŒşıûóG ‰üPq8qXIRSSÅÀEŸ>}Dbbb³|?
+…HºqC,ÑÑÑ"..NäääèŒÁ®ììlqòäIqíÚ5é)))"66ö‰–™‘‘!N:%
+ENNˆ‰‰©ócµZ­ˆ‹‹111B¥R=—şW*•ââÅ‹âôéÓ"//ï™µ»råJQëıT*•¸pá‚ˆÕ÷úë¯×kx"_Ÿç²Ë=·  »OŸÆÈŞ½aif¦sŒ§)m±U•’%“É „¨1Ÿ(?Î•——éâG©ÕjèééIÇ«K€’ÉdO”GusâÄ	¼ñÆX¸p!>øàƒfÛ*—ËÑŞÑï´j…²²2˜™™ÁÜÜü‰?[ÖÖÖè×¯_¥é¸qãF¥3º+Œ?=zô¨r£££Î	^mÛ¶­óó‘ÉdèÚµësícCCÃj_Û_iÆŒ˜9s&^{íµj/‚U±·æñ+Y¦¤¤ }ûö°··çASØãö¬¬&ÓiÈl=x£||àêàPeQk”J%:„#FèL×h4044„£££Î—dÎœ9X½zµÎq«GİºuÓ¦MCJJ
+ìííqóæMÌ™3.”–“ššŠ;â“O>ÁÊ•+¥İ†111P«ÕÈÎÎ–vÕÍ™3sçÎå'ù/€sçÎ¡C‡ÍşµÊårØØØüåí´oß«V­â‡ë177ÇÂ…QZZZïlµZÅ‹³›ˆgº¹QŸ ‹Æ¢¤¤üqµóoİº…ôôtéVqÒKU
+††‘#GâæÍ›8ş<°gÏ“cÂÂÂ0|øpüôÓORnsdd$ÒÓÓqîÜ9888Hí±˜7,µZ¢¢"éo“QÌ©yóõõ}¢ #ooo´jÕŠÈ‚^Í–yU¿ÿõ§M†Z½z5:wî¬Y³ pîÜ9,[¶LjcÅŠ8}ú4€êªê’nUW‘‘‘pttÄ‡~(mÛÚÚâ¿ÿı/V®\)]@¡®‰PÔ°Ğ»wï:ŸlEDÔ˜<³]î‘§NÁ{Ø0(ƒÇ,ÎŸÇ¬¥]~—.]zâd(lŞ¼§N‚L&Ã‹/¾ˆ.]º@¥R!%%EzN©©©ğõõP}BUméVsçÎ•«ÚØØTJŸzÔÅ‹ñâ‹/V¹ö¬Ñh‘‘ÌÌÌ¡¨á)•J,_¾ëÖ­ÃŠ+0eÊv
+q½:!}û"&:¹TÌÔjİ½[`ae¥36ôi’¡¢¢¢0mÚ4´mÛmÚ´Á´iÓ°ÿşZŸcU	UµéÑ£‡”ìT±rPšN`344„Z­®5ŠÖ¥K—€K—.áÊ•+xûí·k<qˆˆ¨ÅôŠ ‹+àZBF
+°jcS)ÀââÅ‹èÖ­víÚ}}ız%C•••é÷iİº5Š‹‹+=§ÇÏR¯*¡ª6cÇÅ¸qã0nÜ¸J'Î=®K—.8sæL¥é7nÜ@ii)°}ûvÈår„‡‡#>>^J„¢†UVV†…bÄˆ˜7oöìÙ£s5z5ê`Q‘µråJLœ8±Nñ“ºuë†èèhéïƒÂßß2™L*ìZ­—.]z¦ıÆo !!;vì¦•””`Ö¬Yxÿı÷qVÑ¶İ  ŞIDATìØ1)jÃ†Ø°afÍš…ü‘ŸÔtöìYtïŞ©©©ˆÇ„	Ø)DÔä=Óakr¹nø@xLú¸ºÂÚÚÎÎÎ°°°ĞÙ=xğ`L<HKK“’¡&NœXk;o½õ¶nİŠáÃ‡C¢¢"Lœ8ùùù8uê¦M›†»wïÂÒÒ²NÏ¹"İª¦³İuïŞ=q›nnn8wîZµj…}ûöaüøñøòË/áàà€. 88‹-ÂÔ©S«L„ª¸$e}#8©²¢¢"L:K—.Åo¼Á!¢fC&¿0pX¼x1>ıôÓjç+•Jäçç×`qçÎÜ¸q~~~P*•¸~ı:zöìY§ç Ñh/JTì–ÏËËCBB<==akk[§e¥¦¦¢¸¸~~~Ò?B$%%!'':uªóóhjjû</Z­¶ÙÄ4Å÷ƒˆŸç&¸…şèVo],&J__şşş•¦[ZZÖ;—ØÃÃ£a×¢d2éÊFô×*,,Ä™3g0lØ0iZK,æE­VÛìÒ	5Îù8¯µâÒ§çç<àX1MçGµš”È¬¬,¡]»vÒ}*Úxü1jµZ§İêÚ®kûZ­2™¬^'|j4èééñ$Ñ&„¿lÔl<x~~~Ø³g;£r
+ğ}T²<€J¥ªò>Ç¯qhfu”J%~ûí·FûÚ?ÿüsüíoÓ™öûï¿ÃÅÅE
+wJMM…¡¡!æÏŸ¯s?ccc¸ººÂÍÍ®®®°··Ç7ß|#Í¿uë^xáaÌ˜1puu•ú"++ÖÖÖ•µµ5rrr¤¿«k».í!0eÊ”••IÓÂÂÂt.’óúë¯ë\‹=66QQQØ¶m¿,èDÏO^^¦M›†™3gbÃ†X»v-;¥9ùùˆŠ‹+d>{·8½±¶ÄÅçíÍ7ßDdd¤ÎPÕğğpŒ3FÚQU‚c…k×®!==wîÜÁ±cÇğñÇ#77Z­!!!˜2e
+’““qéÒ%ìŞ½“'OÖI$¬MMm×Ô> ìÚµİ»w—Fñ¤¤¤àİwßÅíÛ·¥­÷3gÎ`Û¶mÒ­S§N1bÂÂÂê4|—XĞ‰Ü¯¿şŠ.]ºÀÄÄqqq:t(;¥Å¼¾‘ÌÕ%9å‡9Ş|óMxzz¢{÷î8qâD«Kk|ÚÔH Øºu+üüüàåå…¥K—âñS‡ÜİİÑ¹sg8p@š¶sçNé$Õú$8zzzÂÄÄ%%%8yò$d2Şyçi~@@ V¬X¼¼¼:½?õM|´} üè{U”J%¦M›†É“'K÷ÏÈÈ€““ìííaii	///˜ššB&“!((ˆ{¸šv=o%%%xë­·ğë¯¿ÂÓÓ›6mÂÔ©S‘––†lŞ¼ÆÆÆ5¥œ|ğÁ8ş<ÂÂÂÄ­c1ßÿ°˜WŠd>xhïèXéâIÕ%9z{{cóæÍ011Abb"9‚o¿ı¶ÖÄE ú´F77·'Nœ0a.]º„/¾øG±±1F‰;V:t0qâDüôÓOFrr2ŠŠŠ ˆ‰‰©1Áqûöí066†V«Å‰'
+ggg„‡‡£W¯^•^ëôéÓ wïŞEiii¥«Ï=:L·¶¶kj¿¬¬ÒÅœ-Z„qãÆAOOIII €´´4\¿~¯¼ò
+
+
+
+ààà€]»vÁÌÌ}ûöÅ–-[Ê/·Ğ‰j÷ı÷ß#??‰‰‰øè£Ğ¯_?ÌŸ?‰‰‰¸{÷.ÂÂÂj|üÎ;Ñ¥KØÙÙ!..Å¼"O‚[Ÿ>(à>‹d‰A~~~¥ÇÕ”äèêêŠcÇaÓ¦MpuuÅÖ­[ëü|ªJk|šÔH Ø»w/|}}qüøq8p >>>8zôh¥¶CCCqàÀ#<<ãÆ“N«-Á1>>±±±ˆ‹‹Ãï¿ÿ.ĞŠ“êjóèñë={ê<¦.é‘ÕµıúuéÄâèèh$&&bÖ¬Y:µ³³Ã¦M›pöìY\½zÖÖÖX·n€ò+ã%''ó‹Â-t¢ºIOOÇĞ¡CáîîÌŸ?&L€†‚ôôôZŞ½{³3ë)¤o_ü—AƒP ¯/E2ge•G2»ºVêtñâEŒ?!!!ğññÑIr5j‰Ñ£GÃÛÛ»Æ-óGU•ÖXS[µ¥FvÛW\Ò¸sçÎğôô¬Ô••€½{÷"<<[¶lP~ùöíÛ1bÄ„‡‡€”à ü¤:333io‘»»;–,Y‚Î;#""¢R[ãÆCHH CCCŒ7NgşÌ™3ëÜvMí+•J şóŸÿ ==]úNÃØØ+V¬FİÈd2>ÇPIÍèit¢:4hÆ‹¢¢"\¸pööö5jºwïµk×b÷îİ5>şƒ>`'>¡ŠHæï@ë¡CQH‘Ì/ÛÚVŠd®P‘ä8oŞ<h4¬^½Zš·víZ8;;cùòåX²d	,--Ÿª(ÔÔV]øûûãÎ;xÿı÷”_‰±ºäÉ‰'bÙ²eP*•èÒ¥ àğáÃR‚ã£ôÇÔ)ª®@«ÕbĞ Axï½÷°cÇéÒÊIIIˆŠŠÒ¹druêÛöãí»¸¸H+27n”«‡……!--}ôV­Z…’’,Z´HZòññ dffê¬@Qãö\v¹+JKqíÊe”>\sn´Zm¥l÷ŠéU=GµZ!„•Æ>:_­VWy«ª­–jğàÁøşûïq÷î]:/^Ä€••…mÛ¶éäddd`Ê”)Ò¼ô”kôõŒd~ô=[¿~=æÌ™#íæ®¸ìl—.]0sæLL™2Ä„	`ff&%.>Éç£º¶ê"44÷ïßÇ!C0zôh„……U{Ã#Fàúõë?~¼Îîöª÷ìÙƒÂÂÂ*—cmm'N@.—#""óæÍCÿşıŒàë¯¿–v‹×äIÚ~´}+++Èd2”––ÂÖÖnnnpssƒ••ÌÍÍagg‡‰'bÇ		ÁğáÃ+í!¸|ùr½s;è9Ï>û¬Úy¥ÅÅ"ñüquÏNqåğ‘“}O¨Õjñ¼EEE‰±cÇVš¾|ùrñÕW_Ušngg'RRRDbb¢  öíÛ§3¿C‡âöíÛâµ×^NNNÂÎÎNèéé	'''áää$şıï‹æ®¦ÏA}iµZñİwß	[[[ñÙgŸ	…B!¨áŞ…B!’nÜKÃÃEtt´ˆ‹‹9995~7322Ä©S§Daa¡ÈÉÉ111Ò¼ììlqòäIqíÚ5iZJJŠˆ}¢ç^S[uıüÄÅÅ‰˜˜¡R©yß+•JqñâEqúôi‘——÷LÛ^¹r¥ˆˆˆ¨ñ>*•J\¸pAÄÆÆ
+F#Mıõ×Efff³ÿ}i.é.÷²’ÜHˆ‡A~\-Íq-%Iráô",­¬ŸkúTÿşıÑ­[·'z¬¥¥%Ş{ï=ÄÇÇKÇ±*DFF nŞ¼‰~ıúÕz<˜*»uëfÌ˜œœ>|XÚJG.—£½£#ŞiÕªÖHæ
+5%9Z[[£_¿~:÷÷ğğÀ7*Ñ]aüøñèÑ£G½Ûª‹ŠèçÅĞĞ°Ú×öW›1cfÎœ‰×^{­ÚÔ7èLKIIAûöíu®KAÜåşH1ƒA~œÍÍ²´7•Ã()IûÅƒû÷uvCŸ;wË–-“ş^±bNŸ>]å×
+U5ÇâÅ‹‚¥K—Vûüşøã¬_¿Z­óçÏ‡‡‡^xá$$$ÔúÚ:tè€W_}ÿüç?ù‰ªâ‡ôIn,€ë×¯G@@ ˆ³gÏ²˜ÿÅEİÆÆ...hÓ¦Í_²‚İ¾}{¬ZµªÊÛó*xÍ¹¹9.\X¯+Vå‡/^ÌlJ‡ĞUCÉW.Á$?Îm, Š
+ É{ ‘›W™W/Áfğ2L:'//)))ÒãSSSáëë[å×   jÇš:99aÕªUˆˆˆ¨q8S~~>’““±yófœ={±±±xğà+­¹VeéÒ¥èÚµ+&L˜På¸SªŸ¼¼<¼ôÒKP*•8qâ¼¼¼Ø)DOÈ××·Şáõ&¸…^#eq14ù É½Íı,¨ÜGQQ!ÊôWXX§(ÄêÆ¸Ö4Ö400C†‘‘Q­ËŠŠÂìÙ³aff—J'¤T§uëÖX»v-¦OŸÎa`Ã†ÆÉ“'YÌ‰ˆÓzG?\-ÈGêõkh54rPPX„d…ùí½àæé]ãU°*vÇW5ÆõçŸ®q¬éãÇµk\éP*uî_Ÿk>Û¶mÃ_|ÁOÖCÁÕy‰ˆèyn¡›šÂ# ¥6H»“‰‚ÂB$+4Èkï'ÿ°··×)2™ÅÅÅ Ê‡]ºt	@ù×ÌÌL,_¾—/_Æo¿ı¥R	àı÷ßÇûï¿¥RYïcF@ù˜Õ}ûöIí:t¨^_³fÖ­[‡ììl~ºˆˆ¨ùm¡ëééÁ¢M[tğ"’J‹qóÚ(vuƒKW8;;ÃÖÖV'%ÊÏÏ§NÂ´iÓp÷î]XZZ(ã:vìXDFF"55&L€\.Ghh(¶lÙ‚!C†ÀÂÂ7nÜÀ‘#GêtRÛ£fÏ   Œ9yyyõ>1ÈÖÖË—/×¹øQ³)è  ¯¯K+kx‰ë¶°rp‚¥¥%lll`bb¢3¤ÂŞŞ‰‰‰HHH€§§'lmm¥y			HJJ‚:vì |XÈşıû‘ ¥R‰nİºÁÀÀ ıúõ«4|¦*ƒÆàÁƒ W®\Á•+W`ccww÷*ï_±k(OVzÔ¤I“0iÒ$innn²FDDÍ£ Wõ6ÖÖğµZ¹\##£*ÇGZZZV™RTÕW æ±¦7nÜ¨öºØ•ËåÒU–ˆˆˆXĞk(ê¦¦¦Ï´ÍŠñ¯DDDÍ/ŸJDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÔx°ˆZ†=zà×_eGP³ù<:Q‹¤Ñ
+d·ö€FÆ¯=5múB›ÂTvÄc¸Ë¨…Ğ
+ÀP«`GP“g¨U@Ë9² µTÖmÛÀTUÀ &ÏT•[ë¶ìt¢–©wï@*óa U²3¨	o+a ,@ïŞ½Ù,èD-ô‡ĞĞn®.°*ùzBÃ¡¦W°„mKşD·võ¾´5:5+İºuƒ¹©1lŠ®C®-c‡P“!×*`St­M«½ªfKÇÓ]‰Z˜—^zçÏ_€,ë&”†­Qbh•¾142} 2v5úBCMZ©ò` *‚³£zöìÉ®aA'¢
+½PRR‚‹/"çA:ôd€¾‹95.­€VXµ±DÏƒùe·YĞ‰¨I055EPP;‚¨™	!|4Ó¨¨ÂÈ‘#Ù	DDMu‰TÄ$'"¢gë/9Ë‰TÄ$'"¢fPĞ™HELr""j‰T-}ëœINDDÍ¢ 3‘ª ˜äDDÔ|
+:ÀDª–ˆINDDÏÏ_2líQçÏ_Àİ¬,&R5KLr""j1À#‰TùL¤jft“œz2É‰ˆ¨9t"""úkñjkDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDD,èDDD,èDDDÄ‚NDDD,èDDDÄ‚NDDÄ‚NDDD,èDDDÄ‚NDDDOàÿ`½u$»›    IEND®B`‚
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/images/guides/has_one_through.png
+
+‰PNG
+
+   IHDR  ô     ŞDÆ“   sRGB ®Îé   bKGD ÿ ÿ ÿ ½§“   	pHYs     šœ   tIMEÙ8álÊ    IDATxÚìİyXTuÿÿñç;²ˆ¢,¢’€;¦Ò¢`¦fh©•ejÚıËv—¬4³Ò\ókVŞ¥™Ö]iZZ.¹$n¸g¹®h¸‚¨ÈÎlçüşP&‘E@Å|?®‹Kœ3s–Ï9œ÷|Îò:UUU„BaÕ´ÒB!„t!„BHAB!„t!„BHAB!¤ !„B
+ºB!¤ !„B
+ºB!]!„ÆVš@ˆ{S^^»wï!#3lµiaQŒŠŠª‚‡»íÚµÅÙÙY¥ÉrâŞ³k×..\JEoëB}MZGL- E]X
+UÁN) †á
+vúl|êÔ!<¼4t!ÀÆ˜MääëHwöÇ uVÁ^)À#/	':?ÚI¤r]ˆ{ÈşıûÉÎ×‘êÒPŠ¹°*z­#©5“¯#>>^D
+º÷.ƒÁÀÙ¤ó¤×¨"úÂ
+)ÒœH<uƒÁ r9ä.Ä=bûö\ÈSHw¨[lØÿÆVlçXËÇö=OãVË'¹PIT­ZºêÖĞÒ¾}{iŒëÈUîBÜ#.§gçâ_â°Æ­j¢Õ‚Fsí¢¸Â¯ùšk¿_ûWQ¯^uìRÓ†Ã{vĞ´m{¼|ëKãŠ*•gëFjÚ9i)èBÜ›´J=oşìkŞ<Ùäêî@QÁ¤ş«bRÀ¨‚Ñtõ6"½6'ä±àó34k-+ªœAë€Üe)]ˆ{–VƒIcSâ0ª’gäì¥<&-î5ìHÉ(À`Tñtw"%=A%È×“Á(*nIAV™É‰e¾Çİ·nÅ^7il°‘Š.]ˆ{[É;AEU1©P`PĞéMØÚÚàhoK¾NAgTq1(äêô:Ùùùôú›NIWÏßë–sál"nµ¼x k/<¼|Ø¼ì'´6Z"{ö'ıÒyş^÷;B[Úæaş½…s'ğÈS/Ÿ“ÅßëWö çNábÒ)‚Ã¤UûÎ d¦]bgôR²3Ò¸¯e[ZuèŠF£!ıb2¯_Ah›‡9ê8µëúã^Ë‹İ1«ÈÏÍÆ¯Qí:?‰½\å7Ù×pãRÂ~ù9%·srÁ«qX…¶c)èU@©ª/Irª“	“b‹Áxµ€+ª½ÉAEg0¢3ªèô
+ƒ&cÙÑô:>Ö³'ã×(„‹çN±aÑwŒ½„îåÀ¶õ<Øí)ïÚÆÊïgĞ,<’Ğ6³îç9\J:Ãã^ãÜ‰#¬ü~5ÜjbkgG^v›—ıÄĞÿû¿F!LÜFCízşlZ6ŸNOäÙ¡r9%‰•ßÏ`ïæ5œ?uœÈıÙ¹v)N5\©]×-Ë»}o~2WVü]¤µ±£^‹öœÙµ¶ÄáõZ´Gkc'eI½H"•‹¿$RU+ÿ&9™
+®°acŒ$9Y)“I1Ÿ/7) Ñü{ÎÜhƒ	ŒÊµ¦2Ç·oK4gOæ©WGÒµïËœ<|€iCcİ/ßÒ´]û¶DsúØAN‰ÅÙÕÓÇâ1œI8D›G¢Ğhş½­®Yx$/¾?ñ{øü­İÍ‰ø=d_Iããykñ	hÈŸŒbóòŸx¬ß+æÏ98:1qÁbÿŒÁ +à‰‡Ñé™Aü½v9§Æ¡˜LhmldåßE›’zü y‹¼îìQÏ†M¥*ú%éN|cÌ&RRÓI«Hº“/65®Ã“b^=\='[`Sƒ4G_Ò]IIMccÌ&ikë¡W‹ùµâLŠŠAU¯õ{aQWŒeŸC?÷ÏQ ZG>@Ã¦a¸{zqîŸ£4m×€“‡pêhOô%'3ƒØ0èu4mQd\÷5A£ÑàYÇ÷ÚÑ#Iÿ`î¸¡LøOwïŞªªœ?uÂü¹Ö‘İğò­O³ğœ]ÜX6gï<Ù–C»¶ñ˜sÙ‡øµîXìÕ«¯I°˜za"Õe—†bq(Lr"÷ñññ´hÑBÅZ
+ºÉˆáZOÜ`2¡ª`4‚ŞF“‚Ş¨`4)M*“Šé&İÎŞ ]~îÕñ+&ôØÙÙãîéoÃ`íÚÂ…3‰´÷_¶¯^ÌæeóÑh4„¶yø†}~ñ»­6¶¶<õÚ{Eû…’rújQ/,ØuëñÉ¯Û8´kq;bˆûs#qÆ0qaµëúÉÊ¿Ë\¼ıq÷"3ù Ü}ƒpñö—†±”º$RİÃ…A’œ¬’Ñ`Â @¾Şˆ^§£@§'¿  ½N‡^¯#?¿ ½A‡Ñ`¼VĞË>äzÿÕ¢¼ê‡ÿ’~1™µçŸ›m.ÖMÛEğÏÁ}8:»P70ˆ¡-øçà>CZPÃ­æMç7¨ELF#ú‚<6#vû~ÿö³{İ+¾ûœqÃ½–7}‡åşGº£ª*z]¾¬xá‰F«E£Õâ)bI=ô¿ÿŞ…ÁÁ£¦ø’Hu­=FGwvíÚ%INÖ²ÎŒ&ŒF6&T4`4è±ÕšÀF½ö»‚ÆN‹IÕTvAoÜ*œ®}_fÃâïˆİ±€&mÚÓ¥ïàk½ë}KÃ&­Ğh´†´äĞ®mÅ·—¦cÏ~ú{s?võˆ€ƒ#ıŞú˜®îÅŞŞ¥'¯ÿéÃû™_{ğ±ŞÔ­$+ŞB8¸zàu_˜ùwQ9w$úuùŠUd¹øS`S£Ø°íËjT8‘*3k¶$RYGS.n9çèİó	i±zõj’]‚Kf£s Së:äæë)(0`TTLªƒr­Ø«LªæêsZ;:EÌÊ/xà±Şø…–:ÍŒK)\L:»§>şı»¿TU%)ñyÙ™ø…â\B1/d29÷Ïòr²ğôñ£_ l–ö¥R_pµ—iïX®÷ûæ$Ğ£Gi¸;İC¯êDª¬ôTlíìËüƒUK’œ¬Ëåô|Öì<‡ÉdB1)¨ªŠª\-šŠZøêµoàùyºr×Ã».ŞuïLoD£)óËD‘/,¶¶†È5]ŒÊYÈEôªN¤õôÃ„E<Æ«ã¿’5zI’Ó=Ô;RÎñçæ¤&Ÿ)÷g¼|ëã(§Á„¨ŞıZé.ñÕÛHuh×6àê¡½ÓÇâ	iQj‚\½fß–5äæàS?ˆ»=EVz*{bVÓ¸U8'â÷—u…£^Ç®+qvu£cïJ<?WI’Ó½Ã­–MÛ¶¯P6»£“3nµ¼¤ñ„¨ş½d·;‘jOÌ* R“Ïplÿ_xxù”š •”xŒ©¯?³‹;5½ê°å÷…$ø›öİû°òû88:áìV“ŒK)ü½ÅdÄÁÉ™Ì´TÎ8Âk¿¾§6Ir²LË—/§}ûöxyİ¾bêàä,×¨aíûìªà‰Tæä©J&RıgÌ§ 4{€nı^eóòŸÈ¾’ÆÛ30jæbèÚ‹ÍË"3íi’ëĞ•Ñ³—ğş7KñmØ˜“‡÷›Çõp÷gùdñVÚ÷x–¼ìLşßŸ1õ·íxÕàLÂ¡{rñlØg:Å^—$§»ãÌ™3¼şúë¤¥¥Ic!îrİhÄ¤Ø™©4š[K¤ºÑõ	R ÙWÒÍ	RMÃ#I9È¼©ï‘|2ÜìLÜ<j›?[Ç¿ 5\¯ŞëĞF‹“‹Yé©÷è&r5ÉéxÌâ"¯J’SÕ4h«V­"##CCaı6'Rİ¨¬©u?ÏeÕÿå©WGÑÿ‰ü4ı.;ıoéºá–šÛy‹5“$'Ë0oŞ¼«Û²Ÿ¤›	!,  ß˜HeÔjÌ‰T£ü|ô¦r&RÒä£ª
+A-Ú÷çFôy„¶y˜eßLãô±xŞú|>—’®ïFÍ[“}%3	‡prv‘­ üÂ"ÉJ9iş]X'ßœi!¤ ß¦‚~›© ê5hÌáİÛX0ı#úû¨Ô©6D±'f5Ÿé‹[-/jûø‘zş,™i—dK¸	Ir²~ûöícÜ¸qÒ¢Z?~¼ËÜıº;;->µ]((p0'Ry;8š©œÿM¤Rå¦ãùÕ/œ>v¯zşØ98òÖgóJLjşà#L\¸‘Ë)çiQ$Jö¡ÇŸ1ÿŞû•wéıÊ»æÿ™³L¶À§ÙƒÒB!ıª;‘HåTÃ•Ğû2ÿ¿¬)O_<}|eÍWfc‘$§j-÷ôHP²qø­“\C"„ô›ôĞ%‘JË+æÇ;boc@µ]ü}è¶âZ3[Û¢»E¹ú¥Ûæ†§š)×¤iµÅï„5æ÷›L¦bã,n*åôšF£)6=!„tI¤âÖ$%%İÖñ\˜‹£WJş	4š í.“–8õ¾Ÿğğğ(ÒS_¿~=?şø#‹-*2iÓ¦áèèÈ[o½Ulü~~~ìØ±£ÑHhh(kÖ¬áñÇ7		aË–-:”={ö`4IMM¥nİ«ğÃ†cÔ¨Q²â…°´‚.‰T¢,w"M”M£uBU®`cdï£‘üÜ,Œ™™¸»»éwèĞV­ZUzZ5kÖäÍ7ß$>>—bëàôéÓ´oßş¶q¢ºÓJK!)hw‡ƒ÷ä^<ƒ¢ËEÍÉ&» ›ƒiƒJ<‡~äÈfÏ¢(Œ=š   zè!<X®i5jÔˆ'x‚?üP^)è¢:4haaa\¼xQ£S§NE£ÑTêçı÷ß/{ä./¢±q ?'CÃñ©Š»»{±sâ™™™$$$ğã?ò×_ËâÅ‹Ù¼ys¹—cÒ¤I¬X±‚İ»wËJB
+º¨næÍ›Gzz:¾¾rBITUå¯¿şº¥/e±··˜°%Óşuê×¯««k©WºGGG3tèP\\\ğ÷÷çùçŸ/÷¼¸ºº2kÖ,Œş&OSB”ß;‡.‰TBÜ>III9r¤ÒŸ=zt™Ã·VÍÇ£¦®®®Å®F¿^¯/rÜÕÕµBóÅ‚øôÓOeå
+aÉ]©H’ÓíäïïÏ‰'ny}ÜôH€F‹ZİBXXkÖ¬¡[·n(ŠÂ†èÓ§O…ægÆŒ„……‘““#+XˆÛ@¹aRSSY³fM•MÏ±Î‹ä_IáŠ¦5NNN7½ï{èĞ¡ÄÄÄĞ£G"""*uŸ¸··7Ÿ|ò	YYY²Â…°ÔúÍH"•¥[¹r%¯¿ş:/¿ü2QQQU6]“ïŒiø89]=§^‚Î;Ó¹sg 8Àğòò¢aÃ†¥÷Â…æß÷îİ[dØÀ8p`‘×å–5!¬¡ K"•%ËÊÊâ­·ŞbÛ¶m,^¼˜öíÛWéôİİİqww/÷ûííí	—'„…¨ÒCî…‰T89¢±o†£9‰ÃÉÊÊBUÕ"ï]¿~=ıû÷/6iÓ¦ñå—_–8~???IHHÀÎÎèèè"ÃCBBHNN¦OŸ>âçç‡ƒƒòÙgŸÉq—%%%rÏ-÷¦M›hÙ²%öööÄÅÅUy1BH½B$‘Jˆ¢òóó3fK—.eîÜ¹tëÖMEaù=tI¤º÷Ü± ”j`ïŞ½´nİš.+Å\a=D*!®Y±b&Là—_~¡V­ZÒ Bë*è’H%ÊcêÔ©$''Wëeœ8qb…ïİB‹)èw#‘ªY³f’Hu—¨ªZ©ŸÑ£G3aÂ„jÓŠ¢0kÖ,233e£BT‚nŞÑW0‘ªp§¸aÃ†
+OkÆŒ|ıõ×¤¦¦Ê·£Fbùòå;vÌê—åÔ©StêÔ‰ß~ûÜÜ\Y¹BˆêQĞ%‘J”‡‡‡#Gä£>²êåøöÛo	§GlÚ´‰zõêYıºQUN‡¢(¥f:X“ÉdÎ¸¸~9Fc±[jFc±÷Æ"?¥¹xñ"‰‰‰EŞS8İÎiæzT¦]*ó9q÷ş8o»?ş¸ÌáW®\QÕóçÏ«:î¦ãÓétêßÿ­&&&ªÂzÜl;¸™¼¼<Õßß_ıûï¿­nÙÏŸ?¯vïŞ]½ÿşûÕÃ‡[ÅúHËÌT¿_³F½”®êõúß£(ŠÚ¡Cõ™gQ£££Õç{®ÜÓ×étêêÕ«-r}M˜0AıÿïÿyíàÁƒªj4Í¯8qBÔ‘#Gy¯Z·n]Õ××W­[·®Z§NõË/¿4?}ú´úàƒª7V[·n­Ö­[×Ü)))ª»»{±yrwwWSSSoyÚŠ¢¨/¼ğ‚š——Wäs,P§OŸnşïŞ½Õûï¿ßüsàÀuÕªUêüùó«åş¥:BZXòÜwß}§vêÔÉª–û×_UëÔ©£;¶ÔÂhiëãò•+ê‚mÛÔƒ:ı?Ô§O—øe;??_õóóSUUUsrrÔ”””rO?##C¶Èu–˜˜¨zxx¨æ×Æ§6¬XFEE©~~~ªÉd*RT³³³Íÿ?zô¨jgg§¦¥¥©&“ISçÌ™c¾{÷nÕÓÓSÍÎÎ.wA¯Ì´UUU—-[¦~ñÅEÆ}üøqÕÍÍM>|¸ªªªj2™Ô:uê¨G5ÿäææªŠ¢¨=öX‘v‘‚n¹äá,Â¢4ˆ””Ö®]kñóšÎóÏ?ÏØ±cY½z5ãÇÇÎÎÎâç;-3“uññ·oŞÆ†À®]ùáàANŸ?_ìî¡C‡’ššÊÀÍYñññŒ?Ş½{3iÒ$²³³éß¿?ÁÁÁ´nİšmÛ¶ğÆopöìY^}õÕRç%>>±cÇ2pà@š5kFïŞ½ÉÍÍEQŞ{ï=BCCiÜ¸1o¿ı6ªªÏÈ‘#yæ™ghÜ¸1ï¿ÿ>#G¤eË–tìØ‘ŒŒ æÏŸOË–-			aÒ¤IÅ#7lØ&Mš°nİ:ókK—.-rWªª,X°€É“'S³fM¶oß^êrãääD^^Û·oG£ÑğÊ+¯˜‡·mÛ–©S§råÊ•rŸæ¨Ì´æÌ™ÃsÏ=g®×ëyé¥—4hùµääd|}}ñññ¡fÍš„„„àììŒF£!""‚•+WÊÎÈ
+ØJ‹Ş@mm™<y2cÆŒ¡k×®%fø[Šììlüııùşûïqrr²ŠöMËÌdíµbä Y66¸=ö_¬_Ï[@ƒzõÌkùê«¯Ø°aóçÏgãÆ$$$••ÅôéÓY¶lÌ;'''=Ê¦M›øî»ïˆˆˆàë¯¿fÿşıÌ™3§ÔùÉÊÊbÆŒìÙ³‡ûî»Çœ5kÖÈÎ;9pà ªªÒ®];;FVVóçÏ'..{{{|}}ùá‡˜6m½zõ"::šàà`>ıôS6mÚ„££#=zôà¾ûî+Rä À/¿üÂ“O>IBB999E²ê÷ìÙƒ££#-[¶¤OŸ>üüóÏDFFš‡/Z´GGGEaÛ¶môéÓ???–,YB»víŠ-ëàÁƒ«¯ÉÏÏçİwß-2<??ÿ–§]PP@rr2uëÖ5¿wìØ±ôíÛ­Vk¾è411‘“'Oòøã“••Eİºuùı÷ßqqqáá‡fŞ¼yr‹¥º°x½zõÂÁÁ­[·Zô|Ö¯_ŸiÓ¦YM1X¾c>H6p¸\RU²ûæÍY¼gO¹nµ§K—.888À–-[˜;w.ÌŸ?¿BóôàƒŒV«%44NGÛ¶mY»v-û÷ïç—_~!--Ng¶µjÕ¢V­Z<ùä“h4‚‚‚Ğëõ¬ZµŠfÍš±uëVÖ­[GÓ¦MK¨êÓ§ëÖ­#77—%K–Ğ·oß"ù.¤eË–ÄÄÄP»vm~ûí·"G0âãã‰%..Ã‡›‹¨Éd*×Å¼mÚ´)òsıg*;í“'O¹3&&†£Gòúë¯™v:u˜;w.ıõ‡¢víÚ|ıõ× 4hĞ€„„ÙI]ˆ[§ÑhØ¸q#5jÔ°¨ùÚ±c'Nœà?ÿùÕ¶mï‡æ§˜ü}”,.©*YF#¹/Â¦M´(ÒS,ÍõY={ö¤nİº,_¾œgy†ĞĞP/^\îy*éÑŞ½{yşùçéİ»7M›6%  àß^ÉuGm4ùÿ…Å¸ğ}ác\›4iBppp±ixzzÉªU«X²d	óæÍ33,Z´ˆîİ»³dÉ jÔ¨ÁÚµkyòÉ'˜2eŠ¹ÒÒÒhØ°!'N¤I“&,[¶¬ØôúöíKïŞ½‰ŒŒÄÎÎ¾}ûşÚk¯İò´õz}‘Ó>3gÎ$))‰.]º””Dnn.L:•ĞĞPs»EEE±eË ììì$˜KzèBÜ>–TÌu:£Gæ¹ç£víÚVİ®î..<Êuë¸d4’m2‘{ñ"¦éêå…§§g…ÃœfÍšEJJ
+Ÿ|ò	û÷ïç?ş¸å‚°bÅ
+Ì´iÓ0`@¹¾d
+ÃÖÖ–!C†0dÈôz}©Ÿ0` Ó¦MC¯×Ó¼ysóë7nÄ××—ï¿ÿo¾ù†o¾ù†×_Ÿş¹Äñxzz’••…¢(<úè£¤¤¤ğë¯¿š‡;vŒèèh"""n:ÿ·2mÿ"Ï£Ÿ3gK—.å»ï¾ã…^ K—.Œ1‚éÓ§	rÚ»w/M›6 %%¥È(!]ˆj!66–6mÚpâÄ	bccyâ‰'¬zylmmñ÷ña`Ó¦œ^¿ì”Ô˜ºy{ãçç‡¿¿?nnngóæÍyíµ×xñÅéØ±#ıúõÃŞŞ{{{.]ºT©ÇwîÜ™Ù³g3lØ0ó!õo¾ù¦\ŸíÓ§—/_¦K—.<óÌ3,\¸°ÈùçëuïŞ“'OòüóÏ;Ü~cìô³Ï>ËÊ•+ÉÎÎ.q\µk×fÛ¶mØÛÛ³lÙ2Ş{ï=:tèÀ“O>Idd$_~ùe‘sÛ¥¹•i{zz¢ÑhÌ_`¼½½Í‹öôôÄÍÍ:uê0`À ~ıõWz÷îMTT±±±æ#û÷ï§C‡òÇoävaM·•ìİ»WıöÛo«|Yƒ:yòdÕÛÛ[ıé§ŸªİúĞétê±S§ÔIK–¨111j\\œš––VäìŠHMMU·oß®?~¼Èë'NœPccc+5ÎääduÇjvv¶š––¦îÙ³§ÜŸUE‹‹S÷ìÙ£†»Òşz½^İ»w¯úçŸªW®\©²éN›6M]¶lY¹¶ñİ»w«±±±En‹{ê©§*t{¢Ü¶v÷È9ô˜L¦"çâ®}ñ1_ÜRøÍİh4¢Õj‹¼ïÆ¤¦Òrê/^¼HNNõë×7¿§p7~Æh4™î­L[Qó#J+Ú&Z­¶ÂŸ»İ<==yÿı÷yòÉ'ñöö®’i8q‚âêêÊŞ½{ñ÷÷¯vÛ¼½½=êÕã•5(((ÀÅÅ77·J%3öÛ·o_ìõ   N:UìŠîBÏ?ÿ<÷ß‰ÃêÕ«Wä¯Š<¡N£ÑĞ¢E‹»ÚÆvvv¥.Ûôê«¯òÚk¯Ñ«W¯2ÿ~mmmiÛ¶m±m¿AƒøøøHazÉÊ“Hu7•'5J£îŞ7èáÃ‡›1î´™3gªµk×VgÎœ©*Š"GL„U:xğ š››[áÏ9rDÍÉÉ‘íÙJTyA/o"ÕİTÔ(IŒº{p/^Tk×®­<y²J
+ú‡¥ !Û³%ªÒ‹â*’Hu·£àæ©Qª$FİUŞŞŞ:”±cÇŞñi½ùæ›Üwß}r(Oaù¹Ve1¯H"ÕİLŒ‚²S£$1êî'F1‚àà`âââhÙ²åmç¥K—øğÃù¿ÿû?<<<dï „°*UÖC¯L"ÕİJŒ‚²S£$1êîsuueÌ˜1Œ3æ¶ŒoåÊ•„……Q«V-œeÏ „zi*“Hu·£ ôÔ(IŒ²œÄ¨W^y…3f°uëÖRï+¾™¬¬,†ÎöíÛùõ×_yøá‡e¯ „zYnW"UU%FAÉ©Q’e9‰QöööL˜0Ñ£G—x-ÄÍlÚ´‰–-[âèèH\\œs!„ôĞË5¡ÂD*Eá‹õë±oŞ6mªp"UçÎ4hÉÉÉ$&&š£pÓÏöéÓ‡yóæÑ¥KÜİİ9uê›6m*õıİ»wç¥—^âİwß-r¸½¤Ô¦ÂÇF–¤0µ©cÇ,[¶ŒŞ½{óÕW_áááÁ®]»Ì‰Q×Ü’Üê´£œœœŠÜÃíééIjjª91ªsçÎ8p NGNNŸ|ò	`™‰Q}ûöÅÑÑ±BŸÉÏÏgÌ˜1,Y²„o¿ı–nİºÉ@aıªúv‚Û‘H%‰Q•SÕ‰Q–x[I||¼¢öíÛWMOO—Û|„í¹Ú¨ò¤¸Û‘H%‰Q•#‰QàááÁÄ‰yæ™gäÛ|å: (ŠRé9Ke­éå~e"-%R”ß]y8‹½½=^^^øûûãááQív–ÊÍÍ1cÆTèºƒëwãÇ·èå;tèĞM—ÍÏÏOŠy)Ò³²ø!:šÔŒC‰ïÙºuk‰·yŞŒ^¯ç?ş°ØeŸ2e
+/¿ür‘×>Œ¿¿?Š¢ ğÏ?ÿ`ggÇèÑ£‹¼ÏÑÑ‘€€ 	ÀÇÇ‡¯¾úÊ<üÌ™3<ôĞCDDDğì³Ï`n‹‹/–øÄ¾Úµk“––fşiÓ.ÏôUUåÅ_¤  ÀxLù&    IDATüÚÂ…‹<$ç©§*rgMll,ÑÑÑ,X°@ş0¤ KÕ¬Y³Jİ–Z%0]¾|9©©©•úìøñã™9sf‘^ÉôéÓ™1c†¬ø›HËÌ$:.Æ]º0ÿ¯¿8SBØÓ­ÈËËãwŞ±Øåïß¿?Ë—/7ß°dÉ}öYs‡cáÂ…DEEñË/¿˜‹|¡ãÇ“””ÄùóçÙ²eï¼óééé(ŠBïŞ½yñÅIHH`ß¾}¬X±‚Aƒ‘““Sîù+kÚeMà÷ß§uëÖæ»†Nœ8Áo¼Á¹sçÌ';wîdÁ‚æŸÆÓ½{w.\X¤M„t!ÊåÌ™3¼şúëEz&1qâD¦OŸNFF§N¢S§N¬^½š={JãŞ¤˜—7Áñú/K%%6dggÓ¿‚ƒƒiİº5Û¶mã7ŞàìÙ³¼úê«¥ÎÇJ‡„›'DV—tÈ§E"­5R”<mMX„Aƒ±jÕª";áŠ
+		¡gÏôïßŸ½{÷2jÔ(Ş~ûíbçEÑb^‘ÇBûöí+1±144”ü'''=Ê¦M›øî»ïøúë¯Ù¿?sæÌ)u^îD:d¿~ıØ·o_¹"­5²¬éß˜iÍéBzèÂJÌ›7ôôt|}}+=””N<É†X¼x1ï¾û®ó›¨L‚ca/³´ÄÆ€€ ¶lÙÂÜ¹s	`şüùåŸÛ	”;!ÒZÓ!Ëšşõ	‘Ö)¤‡.î¿ıöÃ†ã•W^áşûïgÑ¢E<òÈ#Ò07Q™G(;±±gÏÔ­[—åË—óÌ3ÏZfÏüz·;ÊŸi­éeMÿú„Èê)¤ ‹jLUUÈŞ½{Y±bíÚµ###ƒàà`FŒAHHˆ4R
+X·×®]És‚c7oïRß{ï=L&Ÿş¹yØ¬Y³ğóóã“O>aâÄ‰Ô¬Yó–ŠBYÓ*°°0ÎŸ?Ï!C øüóÏK½bÀ€L<¹ÔtÈëèÏ?ÿ\¤¨^ÿÅàútÈ7ß|“_ı•gŸ}ø7ò‹/¾¸é¼WtÚ7Nÿú„È9sæ˜Ï«/\¸ÄÄDs:d^^ùé…–œ)Ê&Ç#…UÓh4<ûì³ìß¿ß|®ÒÃÃƒ‘#GòÑGIİì}a‚cÓ¦œ^¿ì”Ô˜˜›&8vîÜ™Ù³g3lØ0óaîo¾ù€æÍ›óÚk¯ñâ‹/Ò±cGúõë‡‹‹—.]*r«Ty•5­òèÓ§—/_¦K—.<óÌ3,\¸°Ôìÿîİ»sòäIşù›¦C®\¹ò¦	ööö,[¶Œ÷Ş{:ğä“OiN‡¼™ÊLûúé{zzš"½½½	$00OOOÜÜÜÌé¿şú+½{÷&**ŠØØXóKL‡e÷p$ÁGXL’“¯¯¯zôèÑ[v^^ şı÷ß²"îP‚cY‰©©©êöíÛÕãÇ›_;qâ„[©y¿•tHKHˆ¼[éåMˆ¼]é’w%Åèòó9sì(şƒqpr²Š—EAUÕ/p)¼/´¤§Â÷—•e2™Jí}JèNQ;vì`ôèÑ¬[·®Ìûâœœ˜<y2ÿüóùJeQºÊ$8–•ØX»vmÚ·o_äıAAAœ:uªØİ…şùRo%²ğoén&DŞ­tH(_BduN‡¼§¸Uõòò8}(ÓÅÒ/Ğ2wZ_¸Ö¯_Ï?şÈ¢E‹Š›6m¼õÖ[E^÷óócÇFBCCY³f?ş¸yxHH[¶laèĞ¡ìÙ³£ÑHjjªùPÜ°aÃ5jÔ=µA&%%•ü%P§cÜ¸qüôÓOÌ=»\!7åy`(ZÔ½¼¼îè44hÀôéÓ¥±«Ğõ	‘	•²†tHqzA^§Æc›™F@M7Ÿ8Á±Œt‚#¡¦gm‹.ê:t U«V•ş|Íš5yóÍ7‰7_Zhùòå œ>}šöíÛ—ZÔîUqqq0€Æ{Ç‹ÕM³fÍ*ü™Â+ß…õ¨²cİW‹y¶™iø¹¹AAœíq8Ï±µ«É¸|¹Ø¡çÏ?ÿœ&MšĞ´iSs|ç/¼@bb" Ã‡7_ñºaÃ>úè£RÓ¦ ä´¨øøxÆOïŞ½™4iR©óäÈfÏ\=Ä>zôh‚‚‚xè¡‡8xğàM—¿Q£F<ñÄ|øá‡÷ÔVø@ˆŠş¼ÿşûF¦L™B—.]xï½÷Xºti¥‹ye—.„ÒC/AÂ}8e¦ãçáš“…éJjz‡öíäˆ‹;a]3ß"³aÃ~üñGvìØF£á‘G¡yóæÔ¬Y“õë×óòË/óûï¿S»vmŞ~ûmV®\I“&MJM›jØ°a‰iQ¾¾¾LŸ>eË–Qêügffš~üñGşúë/bccÉÈÈ <<¼Øù§’Lš4‰-ZĞ¯_¿Ó£Ä¿222ˆˆˆÀÅÅ…}ûöáïï_éq%%%Ñ½{wöìÙS,ñL!¤‡^	úÜ\L™˜Ò/cº|cÆerr²)ĞÚr%;»ÈÃ
+¢££yé¥—¨U«¼ôÒK¬]»–îİ»Cll,äææråÊ6oŞL÷îİ’Ó¦ÊJ‹
+§K—.888”k9¢££:t(...øûû»­¤4®®®Ìš5‹ÁƒKXÃMÌ™3‡~ıú±nİº[*æ€ùö«¹sçJÃ
+!¤‡~«îkÆ¡¬Lş9yœú1e¤‘•C‚ÎDfƒƒC‹\%^PPPäÂ'WWWrss‰ŒŒäå—_fÓ¦MtìØggg–,Y‚V«%  €³gÏ–˜6UVZÔç´oúÅD¯/ò™’‚7JÅ‚øôÓOï‰ÌRuO<™nİº1hĞ 
+­/!„ú	jN¾W=Ï§•M‚ÎÄ•!ø†µÁÇÇ§È¶U«VÄÄÄ˜ÿ¿~ızÂÂÂprr¢eË–Ì=›;Ò©S'&OLTTT™ÓÃÖÖ–!C†0dÈôz}¥^8®5kÖ WÏ§oØ°¡BŸŸ1c_ıu¥**®eË–téÒ¥\é\B!½¬	iµ¸{Ô¢qä#è7ã´­¹÷5Ã¿u[üııñöö.Ò³~á…8wîQQQ<şøãœ;wÎ|RTTƒ†Ò±cGNŸ>m>Ü^šŠ¤EİÌĞ¡C‰‰‰¡GDDDTøê|ooo>ùä²²²d¬B…ÏK¿té’4†¢ÚÑ¨wà˜èøñã7n\‰ÃL&—/sòÀ>êúR³fM¼¼¼prr*z`2™ˆ7‡BÜj ªª<x½^O«V­Š½T„^¯çÀxyyÑ°aCÙ’*¸Ü-…Y…wMÈúB¶çê¢Êƒelllğ¨]›f1ØÛÛãààPb‚‘aaa·ïÛËMÒ¢N:Å¬Y³JvcŠ•½½½$Y¡1cÆĞ´iS†Nƒ¤A„RĞoµ¨W$±¨ªHŠUõçííÍĞ¡C7n\…Ó-„–N¶&î9#FŒ &&Fù„ÒCÂš¹ººrìØ1¹}M!=t!ªCQB)èB!„°(rÈ]ÜÓÖ¬Yƒ=öXµ_Öûï¿ŸÕ«WËJÕf{RĞ…0Ójµ¼ıöÛÄÅÅİR.50)*©®A˜4òg/¬›jÄ+ûiˆ÷gÒâ^Ö­[7|||˜7o^µ_VE;E'+]X=;E‡"OD–‚.Ä¦L™Â„	*ío-j×òÀÙ qÃÂú92ñ®]KB
+ºE…‡‡Ó®];fÎœY­—óÂ±Ógb«È£{…5÷ÎõØê³xà¤1¤ QÜÄ‰™>}:ÕwGhgG`€?ygÑª&YéÂú
+–j¢VŞYÖ¯ğC±¤ q		¡W¯^L›6­Z/g«V­psvÄ+ç$öJ¬xa5ì^9'quv,ó™RĞ…Œ;–o¿ı–äääj½œ:=B]ïÚÔÊ9M­üd9Ø¨F@®2–DÅF5âhÌÁ3?	œSøÕõæÑNHÓ”Bî_â___^~ùe&L˜Àœ9sªõ²†‡·#//½{÷’–‘„V6ZlÂ¢˜EUñô¨I›6ZäC½¤ a¡FÅÎ;ï‰euvv&""BVºÕ„râ:tïŞ]B!]!„RĞ…°±±±ÒB)èBX3EQè×¯k×®•ÆBHAÂjÿ0´Z&OÌ˜1cPED!]kÕ«W/X´h‘4†B
+ºÖJ£Ñ0uêTÆ‹^/ùçB)èBX­ÈÈH‚ƒƒ™;w®4†B
+ºÖlÊ”)L™2…ììli!„t!¬UË–-yôÑGùâ‹/¤1„K£ªêm"ÃêÕ«¥e =zô¨ËqêÔ)ÚµkÇáÃ‡ñöö–+„°8w$Ëİ¤¨¤ºaÒHTü½ÊF5â•ıOµY0dÈ;&]qïtE;E‡ÉF
+ú½ÊNÑ¡T³§q7NV¬Âbİ‘sèµkyàlÈ’Ö½‡92ñ®]KB!¬¹ ?ğ@8vúLl¹w÷Şìë±ÕgñÀTÛe¼—!„åt;;;üñÌ;‹V5I+ßK”j¢VŞYÖÇÆÆ¦Z.ãöíÛyúé§ee!ªAhÕªnÎxåœÄ^)–¾Ø+:¼rNâêìH‹-ªír†‡‡ÇÖ­[e¥!,Æ¹míz»víæÂÅ‹èí\É³sÇ`ãˆIch¤õ­ŠjÂÎT@Ãl9øÕ«K›6mªı’ÿüóÏÌœ9“?ÿüF¶e!Ä=PĞòòòØ»w/i™h5`£•`uaRTUÅÓ£&mÚ´ÁÙÙùXnEQhÓ¦}ô½{÷–Aqot!ª£µk×òÎ;ï‡­­Ü¢)„¸»$úUˆJêÖ­>>>Ì›7OC!=t!¬Ù®]»èÓ§			899Iƒ!¤‡.„5
+'<<œ™3gJc!¤‡.„5;vì;wæäÉ“ØÛÛKƒ!¤ a­233qww—†BHAB!DåÉ9t!„B
+ºâzÿûßÿHHH†BHAÂš¥§§óá‡JC!ªœœCâ6ÊÏÏ'88˜ß~ûğğpi!„t!¬Õÿş÷?~şùgbbb¤1„UF¹q›4ˆ””Ö®]+!„‚.„µ²µµeòäÉŒ3EQ¤A„RĞ…°V½zõÂÁÁE‹Ic!ª„œCâÙºu+/½ôG‘HX!„ôĞ…°V‘‘‘3wî\i!„ôĞ…°fG%33“x@C!]!„e³•&BÜyyyìŞ½‡ŒÌ,4°Õj¤QD‰ŒŠŠª‚‡»íÚµÅÙÙYEzèBX#GĞ¤I“j¹l»víâÂ¥Tô¶.äÙ×Ä uÄ¤ÑRÔÅTlT;¥€†+Øé³ñ©S‡ğğvÒ4RĞ…°|iii„„„°{÷n4hP­–mcÌ&ròu¤;ûcĞ:ÈÊb¯à‘—„‹“í$rä*w!ª€§§'C‡eìØ±Õj¹öïßOv¾T—†RÌE¥èµ¤Öh@N¾øøxi)èBX¾#FC\\\µXƒÁÀÙ¤ó¤×¨"»qiÎ$:ƒÁ`©$9ä.Dš9s&ÑÑÑüñÇV¿,Û·ïàBBºCİbÃş7¶b;åZ>ö´ïy·Z^88ÉR÷ªZºêÖĞÒ¾}{iŒJ«Ü…¨B¯¼ò
+3fÌ`ëÖ­DFFZõ²\NÏ ÏÅ¿Äa[ÕD«æÚEq…İÍµß¯ı«¨W¯vv©iÃá=;hÚ¶=^¾õeC¹GåÙº‘švNB
+º–ÏŞŞ	&0zôhvîÜùoÁ³BZ¥7ö5olru÷¢¨`R
+ÿU1)`TÁhºzû’Ş›òXğù
+šµ¾ëË••Š­=Î®î·mœ'à÷o?£KßÁ4 £Åón3h»¥ a5úöíËôéÓùı÷ßéİ»·Õ.‡VƒIcSâ0ª’gäì¥<&-î5ìHÉ(À`Tñtw"%=A%È×“Áh1Ë5êé‡	‹xŒWÇuÛÆ™›u…ãq»i×¥§Eóv(ÈJ#39±Ì÷¸û6ÂÑÍ³Øë&6RÑ¥ a5=[­–)S¦ğöÛoóÄO`kkÍ†%ï|UÅ¤BAA§7akkƒ£½-ù:QÅÅ «SĞëdççcĞëo:¥Ì´T¶¯Z„Ñ §í£=ˆû3†FÍZãáåÃŞÍkhñP'ü…•Ê?~£qËvµhÀ¹²oË
+rsğ©Äƒİ"73¿×¯ ´ÍÃœ?uœÚuıÍó‘q)…ÓÇâ	iAfÚ%vF/%;#ûZ¶¥U‡®h4Ò/&û|pXÙ¿º¼¢~C^ÖÚ>Úƒ€ÆÍJ?G' òr²Ø½”Ë)çğ	hÄC?…½ƒS±qïÛ²†‹çNópÔ3äçd³;fù¹Ùø5
+¡]ç'±³¯š»ìk¸q)a?†üœ‡Û9¹àÕ8¬BÛ“(ç—ì?şøci!ªVPP»wï¦U«VÔªUË*—áøñãdÛ×.q˜³ƒ+5µ¤^ÑQ`PAU°··##Û€Î`ÄÑÑô,=ƒ';Î§ë8v`~A¡¸×ò*6¾¼œ,>yõ)âÿÚDfÚ%¶­ZÄ¡¿·à^ËG'Lÿ¡-ñ
+åRòY¾›ğµëùs_Ë¶$%cêëOsáÌIòs³Ù¹f	Ï¢_ ?N}SGâøóßğ
+åèŞ$ŸLÀ +ÀİÓ¯zLÜ“ÓÇâÑëØøë÷äggÑ4<‚sÿ-öù†MZ•Ø—’N³'f5‰÷‘|ò8'â÷²}Õ"Bîˆ¼ìÌç¯Í#Qèòó˜úúÓØº£ÑÈÎè¥$ÚÏõ6³ÅC’v1™¹£~ps|4fÒ+½H9ı]ÛVüÂ¹Gh×ù‰ªùŠ§µÁÖŞ‘ÌäJî'jxÖ-õónú47n,;‰Êt¤	„¸;æÍ›G£Fªå²™LŠù|¹I£òï9s£	¦k¯¾n4•9¾¿¢—’~é</ŒœÂÄ…‰x¢o¹ç%íBaº2zöŞÿf)¾sòğ~ópG'&.Ø@ûîÏòŸ1ŸĞ8ìºõ{•ÍË"ûJoÏXÀ¨™‹y k/6/ÿ‰Ì´K%~şfC[2eñŞŸ½UQYÿËweÎß˜Õ\<wŠï}Â˜9ËèñâPÎ8Â…³ÿÒ>wâ0ßO~—ğ.=éıÊ;$øƒ®€Î}şÃÛ3Ğÿí	¸ÕòB1™ªlı{6lŠ³Gâ_ô<êàÙ°©üñß!rÈ]qÛ)F#&ÅÓµâ4ƒª^+êÿöÂ¢®Ë>‡~îŸ£ ´ì@XäcD/ü¦\óÒ4<’”Ó‰Ì›úÉ'ÈÍÎÄÍãß#­#»•ze}Ò?Ç ˜;n( ÙWÒQU•ó§N`síTIYŸ¿QX‡®hµ6ÔkĞ˜ºAœ;q„¦ÿ·ÔùK>•põˆÎµSİ¾I÷opùüÕ«Á·®ø /4-A-ÚàìâÆ²9ÓøcşLBïˆö=ú¢µ±©Â-@ƒ_ëY\äU¿Ö‘ÃêÒCBXSA71\ë‰L&F£ô&0šôF£IÁhR1˜TL7)è6¶v èò®ş›Ÿ_ì=…‘ªR´'ºîç¹üşİg4{ #£fıj.æ`…ÎÆÖ[[zí=~ı=^|ÿÿúßáZ®Ïß¨ /×<¯ºü\ìËœ?[ór W¯#8»‹¼œ,ó{š´iOã–íØøë÷¤&Ÿ¡nı >ùu/›AË‡åèŞ?™õşË\NIªÒmÀÅÛwß óÿİ}ƒpñö—?)èBT_?üğ|ğAµZ&£Á„A|½½NGNO~Az½^G~~zƒ£Áx­ —}8¸qË¶ ¬øß.;Åš³ÍÃ
+ƒhíÚJRâ16-_ä³—’NĞ¨yk²¯¤s&áĞMç__ª*µhƒÉhD_GÃ¦aÄnßÀïß~VéŞî¶U‹8}ì ›–Î#íB2MÚv(sş
+‹û†Åÿ#ãR
+¦ÀŒw^Ä¨×ı{„¡ãã<õÚ(ŒF¿ÎšÂŠï>gÜÀÇp¯åMßác¹ÿ‘î¨ªŠ^—_åÛ_X$­V‹_X¤ü±ßarÈ]ˆ»¬k×®Œ9’7Şx__ßêQĞ&ŒF6&T4`4è±ÕšÀF½ö»‚ÆN‹Iõ&çwÛtêÁM«ùsÍoü¹æ7\wñYÃ¦aø6fÿÖµìßº–Æ­Â‹~ö‘(öÄ¬æÓ!}q«åEm?RÏŸåÊuçÁ¯W¯AcïŞÆ‚éÑwØGú{s?€ƒ#ıŞú˜•¼Gİ©F¦¾ş4 ¾ƒé>h'í/qş2Ó.Ñâ¡N<øXoórk4Zyc4n7\8Ò‚û;>Î¾-Ñ‡=€F£aúğ~æá>Ö›ºõƒª|;ppõÀë¾0óïâÎ’èW!,Àûï¿Ozz:sæÌ±šy^½z5É.Á%³Ñ9Ğ©uróõ0**&U‹A¹VìU&UsõüºÖÃ‡N³òx¬7ş×Î¾ªªœ=~“Ñ€“‹+ã_Œâ±ç_¡÷+ïb4è9u4'güƒšìI»Ìå”s†´¸i´l~n6§Ä«?µëú£ª*I‰ÇÈËÎÄ?(ô–gÎŸ:N^N6B[šÏÃßlş.&&ıâyêáîé}Ói˜ŒFÎıs„¼œ,<}ü¨ãx÷¾Üé¯.°µw,×û}sèÑ£‡ì¤‡.„u5jÁÁÁŒ1‚«_Ëéù¬Ùy“É„bRPUU¹Z”µğÿÔk™°ùyº›÷>4ê_½oûÂÙ“EwdvöÜ×¢m©ŸõôñÅÓ§|G?œj¸zÿCE¦[Ú—sÁ=wÊ|qÚìéõò;E TtşêøV¨(ÛØÚÒÂ2ŠL9¹‚.DµàááÁÈ‘#ùè£øí·ß¬~yŒÊ9şÜ¼ƒÔä3åşŒ—o}Ëù`§®<Õ‡Àæ±¼.î4ğ‘’‹k•^].îerÈ]‘ŸŸOpp0¿ıöááá?¿er×åç‘•JA~^¹Ççèä,O[rÈ]zèBX?'''ÆÇ˜1cˆ‰‰±êeqpr–§¦	QÅä¶5!,È AƒHIIaíÚµÒB)èBX+[[[&OÌ”)S¤1„ÛHaYzõêEDD„4„B
+ºÖL£Ñàééióê›“ +L)èBk¶oß>Æ'!n«ñãÇËUî•$çĞ…°`S§N%;;[B!]kväÈ¾øâ«œ÷ÜÓ#É=ù&cw!„t!îi&Là«¯¾âÒ¥KÖUÌwÄŞ´;›ƒèâïãJZ"Æ‘ª(
+¦Ì¢(
+Š¢”8n£Ñx5:VUKgáp£ÑXâé&‚B
+ºâ¶¤ÿşVu[Á…¹8z…€“#ûf8Ú¹“8œ¬¬¬b=õõë×Ó¿ÿbã˜6m_~ùe‰ã÷óó#11‘„„ìììˆ.2<$$„äädúôéC`` ~~~888H`` Ÿ}ö™lX¢Z’‹â„°p|ğMš4aøğá4hĞÀâçW£uBU®`cdï£‘üÜ,Œ™™¸»»É6ïĞ¡­Zµªô´jÖ¬É›o¾I||<...E†-_¾€Ó§OÓ¾}{’’’dcÒCBÜ=^^^:”±cÇZÅü:x¿@îÅ3(º\Ôœl²²9˜6¨Ø#Máê5³gÏFQFMPP=ô,×´5jÄO<Á‡~(Š‚.M „å1b111ÄÅÅYÇ»¼ˆÆÆüœt]Ç§^(îîîhµEw9™™™$$$ğã?ò×_ËâÅ‹Ù¼ys¹'5iÒ$V¬XÁîİ»eCRĞ…–ÍÕÕ•1cÆ0fÌ«˜_{{{Ğ€	[2í_§~ıú¸ºº–ØKˆfèĞ¡¸¸¸àïïÏóÏ?_¡¶™5kƒF¯×ËÆ"¤ !,Û+¯¼BBB[·nµøy-,ÜZ5š.¸ººbk[ú%;z½¾È9pWW×
+M/**ŠfÍšñé§ŸÊ†"¤ !,¿×ûİwßQ§N«™gU£E-Çµ·aaa¬Y³¸zËÚ†*<­3fğõ×_“šš*‹‚.„°l;v$$$ÄâçÓ±Î‹ä_IáŠ¦5NNNE®l/ÉĞ¡C‰‰‰¡GDDDÜôı%ñööæ“O>!++K6qO’ÛÖ„w„ÉwFÇ4|œœ®S/AçÎéÜ¹3 àÀxyyÑ°aÃRÇ{áÂóï{÷î-2làÀ8°ÈkrËš‚.„°LŠ¢pòäI‚‚‚,vİİİqww/÷ûííí	—•+D%É!w!¬Pll,>ú(ùùùÒB)èBX«Ö­[Ó¶m[fÎœ)!„‚.„5›4iÓ§O'##CC!]kBÏ=™6mš4†B
+ºÖlÜ¸q|ûí·$''Kc!]a­|}}yùå—™0a‚4rUIà  IDAT†RĞ…ÖlÔ¨Qüşûï;vLC)èBkåááÁ»ï¾+½Æh4–øc2™ÌÃUUEUUŒFc‰Ÿ/¦(J‰ÃE1¿(s\ƒ¡ÌùB
+ºÂlÈ!äåå‘››k1ó”•ÅÑÑ¤fd`0ªlº}úô!00???$00Ï>û ???IHHÀÎÎèèè"Ÿ		!99™>ø€¨¨(sÑØ´iõë×'''Ç< Ìq=ôĞCeÎ·‹$Å	Q899™nb	Ò23YOã.]˜¿~==›6% nİR#`o§åË—púôiÚ·o_fìkÍš5yóÍ7‰/ò´7¸zÁaóæÍY¾|9O=õF£‘aÃ†ñßÿş77·rkùòåøùù•k~„ºÂ¢Šùºøx‚Û·GocC`×®üpğ §ÏŸ/ö¼rEQxï½÷¥qãÆ¼ıöÛæÃá'N¤qãÆDFF2qâDó–ùóçÓ²eKBBB˜4iR‘tE5jÔˆ'x¢ÄÓÎÎÎ|óÍ7Œ1‚ÜÜ\fÏM@@ O?ıt…Ç%„ôĞ…VWÌ×^+æy@ecƒÛcñÅúõ¼4¨WÏÜSß·o;wîäÀ¨ªJ»ví8vìÇcãÆ8p€‹/Ò¶m[>ûì3öíÛÇ§Ÿ~Ê¦M›ptt¤GÜwß}<÷Üs•çI“&Ñ¢EúõëG»víŠëÒ¥‘‘‘Œ1‚?şøƒíÛ·›Ÿõ^Ñq	!=t!D…|ğÁüüóÏweÚËwì ğÁÉ® —KªJ6`ß¼9‹÷ì!33Óüş¶mÛ²víZöïßÏ/¿üBZZ:•+Wòê«¯R£F6lHTT «V­¢Y³flİº•uëÖÑ´iS6oŞ|KóìêêÊ¬Y³<xp±# Ÿş9K—.å7Ş(ó)på—RĞ…åÖµkW>úè£»RPz?ü0{bbH7™H»VÌ³ŒFr.\€M›hïéYä2{÷î¥U«VüşûïØØØ @NN5jÔ0¿¯ğ÷ÜÜ\EáÂ…\¸p&Mš”z¼"¢¢¢hÖ¬Ÿ~úi±aµk×&44”‡~ø–Ç%„t!D¹EFFÊÜ¹s«|Úî..<Êuë¸d4’m2‘{ñ"¦éêå…§§'®®®æ÷¯X±‚Áƒ3mÚ4`.ö­[·6÷¼F#;vì  ,,[[[†Â!CĞëõ·í‰s3fÌàë¯¿&55Õ¢Æ%DyÉ9t!ª¡É“'Ó­[7T¤€ŞñŠ­-ş>>T¾X¿ûæÍaÓ&ºy{ãçç‡¿¿‘+Ä;wîÌ AƒHNN&11FÃ7ß|ÃÔ©SéĞ¡O?ı4YYY¸¸¸`ccCŸ>}˜7o]ºtÁıÿ·wo1MìyÀ¿¥Ğj…º´ÁÂRí²Um#ŠkĞuCLŒA_Ô”ÈYoT	Š>HP%!Æëƒ‰ãÉ&`¼€â5•(Jbà(ôh
+Ë*•{±íìg9z¨+pªàñûIúĞùÏõ7Ã|óŸ3*ìv;jjjü²îZ­………HOOŸUó"š,‰ø[n%¢YkÛ¶m08|øğg™^^rss}¶	‚ {g'şÑĞ€¿„…!<<z½*•
+R©ôƒq;;;a·Ûa6›!ÚÛÛ¡P(Æ{ßƒ6›;vì@rr2DQDss3A€ÅbA` û%¿'ÿï¸"öĞ‰¾Ùcbb"vìØ­VûE—-“É`Ğéğ÷yó022‚àà`(•Ê	a ::nü»Z­F}}=ÒÒÒ™™‰ÊÊJ<şIIIc½‰ñññÜÁD¿ÂßĞ‰~§¶lÙ‚‚‚‚Y¾L&ƒF£Add$ÂÂÂ|†ùÇ$$$ ªª
+J¥V«÷îİƒ\.çN%bèÛtèĞ!ÄÆÆbïŞ½0>Ç)//GRR4Í¬Z÷ÿ="•ˆØC'úæiµZØl6ùlùò%vîÜ	§ÓÉb±‡ND³YVV–ÏÇ£¦§§ãÚµkèééa‘ˆèD4Û½ÿ€–÷•––{û}ıxÉˆˆˆND_‹ááaƒ b ÑWL.—ãÒ¥K¨¨¨`1ˆèDôÕş±   €ïë&b Ñ×níÚµˆˆˆÀ…>û²F‡‡ñcãcÿü†´ÙÆëõÂãñøîk}İn7DQ„(Šp»İmw»İ>?¾–EÄ@'¢i+((À‘#GÆßRæp8`2™üºŒ—öæ&¼sü„Öº{è}ëôh‚ àÆ3R‡Û·ocëÖ­†áäÉ“†ëõz´µµ¡µµAAA¨¬¬ü İd2¡££›7oFtt4ôz=ärùørŠ‹‹yğˆü'11Ë–-Ã©S§>ËüÇÂü)¤½NB•ÀË6´üóô:»'„ºËåBVVÖŒÔaåÊ•())™Ö´¡¡¡Ø½{7'´•——Ãáp ®®óçÏ‡Ãá€ÃáÀşıûyğˆüëèÑ£8qâ„ß*3æOØç„^©F\0(d·<EKÕuôtê»víÂ«W¯°}ûv @YYÌf3L&òóó!Š"¼^/8€E‹!&&ûöíƒ(Šxúô)²³³±iÓ&ÄÄÄààÁƒÈÎÎ†ÙlÆêÕ«?¹mÏ=ÃÙ³gáõz‘““£Ñˆ+V ¹¹ù“Û¹páB¬_¿÷#ˆf–ÉdBtt4Ôj5$É”?ô9ßÖÆH¯¡™q°Şˆoˆ’x 4ÜÇ³{ÿ‚ËåÿÌ™3ˆŠŠÂùóçÑĞĞ€ãÇãÎ;xôèª««ñı÷ß£¡¡÷ïßGcc#<y‚êêj´´´ ¿¿eee8uêêêêPRR‚%K– ©©	*•jÂ%ñ_ëëëCkk+.^¼ˆ ©©	W®\Ammí¤j˜ŸŸ«W¯âáÃ‡< ˆND3'99yÚÓ;vì£mÂĞ<}=ğ¼í†§û?p÷tcpp #èğy™ ®]»†¸¸8Ü½{·nİBll,jkk±téRTUUáñãÇ¸|ù2œN'FGGŒı|µZµZ6@"‘Àh4B„ImKee%l6‚ƒƒ‰ÔÔÔIM‚Ó§O###cÒË"b ‘ß)•ÊiO›““ãsøŸÌV¸‚•xÑn‡»û5ÜoèDËˆ}´^„€ ß§¡Ÿï†ïêêBWW/^Œ7¢¾¾‹J¥ˆŠŠúåöŞ¼$Éøw‰D2émÁÁÁõd­[·qqq8~ü8(b ÑÌÈÉÉÿ7¬©~
+}ÎsBãÒDkthëü7úĞ:êA¯Á„ï¬	ˆˆˆøh`Z­V"33™™™ÃÃÃ¸zõ*222PTT„´´´ñ»óıÅjµâæÍ› Æşe­ººzJÓ—””àÌ™3xóæ*šQ|9ù¯‡ U˜1ıZ†‡ğÓÏ0Èx+ôz=´Z-æÎ;>¾L&Ãë×¯Q\\Œ={ö ´´kÖ¬J¥‚İnGMMT*ÒÓÓÑÑÑ¶¶6H$œ;wiii~Yg›Í†U«V!%%½½½J¥Sš^«Õ¢°°ééé< hFID>Ø™ˆ¦!//¹¹¹>Û<zº»ÑŞØ ùüï
+Fƒ¹sçN¸şâÅÁl6CE477CX,õ9:;;a·Ûa6›!ÚÛÛ‘à·mĞh4X°`wî,=®ˆ=t"úÂ¤R)ÂÂÃ·j5Ün7d2är¹Ïß¶Fã/=‰ñññÆÑétĞétãßÕjõ'×Án·ãôéÓ>ÛRSS±dÉ’®$&&rÇˆÈW¨+Š[¾Á`À‰'¸#è›Á›âˆˆˆèDDDÄ@'""":1Ğ‰ˆˆèDDDÄ@'""":1Ğ‰ˆˆèDDDÄ@'""":1Ğ‰ˆˆèDDDÄ@'""":1Ğ‰ˆˆèDDDÄ@'""":1Ğ‰ˆˆèDDDÄ@'""":M†DE‘e ¢©º~ı:‹@ŸEJJ
+‹0,M‡Ç+âMˆ	O#äRÑÍÀbšxÉˆ¦Å+AŞQ‚ü&È;
+/¯3Ğ‰èË
+W‡Añ®Ÿ… ¿Q¼ëƒ6\ÍB0Ğ‰èKZ¾<AB½‹A~èú±|ùrƒND_ô„è¨HüÁõ
+¢‡¡é‘èÚõ
+£ÿ©TÊ‚0Ğ‰èK³X,P*æ@3Ø™w„¡)“yG¡lGˆbâããYßà¿½á®Z ¯A    IEND®B`‚
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.phpactiverecord.xyz/images/feed-icon-14x14.png
+
+‰PNG
+
+   IHDR         H-Ñ   gAMA  ¯È7Šé   tEXtSoftware Adobe ImageReadyqÉe<  CIDATxÚŒ’MHaÇóÎÌÎ´1E"Ûæ!¡HD*Ã(ò–‡P¡KtëP‡nú¸EĞ¥:¯oAAHBRQÔ!ƒüÊÈ%Š¬ÖBÔ]İüØİùê™YêÔ;óÏûÎó÷yşíséƒ4°Iƒ@“¼ÿ®õ£±#©ôîÖ’PsüZ¹Hÿ
+sYLKÇ²zd¦R`‚TîÙä†ìõB½~;»¯ıUbõı#ÜáºŸÇ4èb^)úuÀk)C2†ÏÌKhJ’lM‘lhÁiî±Êèm‚ñ~”&@eÅI¨¶25¼Åï„¸‚K,M°ò±mGÏa<‹›°á]aào %„µõÔõŞ·¥/¯q'ïQÊ½bvğ©®[ØM§)¿`q~fB†ğYx‘aqd »¡çdgÿ)¬B–ùÇW«M7õH‹^ÍØŞlâP@ôQzz™™şÖ¦ß`»H²®/7JşeëğyÜJ•%ü„‚Ò†WÀ±\ùIföÆ‰Ö m•ó¿â}XÓXú\^+`´_Ç¹ò«ı¶\â,Å±X{ÚÑìí¸+Ë1À7j6€š+N²ñDuZÍİ(á5âÉ]˜Ït»6®ûé¦jœ.<&mÕì¶êÁ¸+A–RÙçä§Ç…)üÂ
+¹›İ¬N£GúûÔÉhêÈ®ˆ¤4yt©È¼²PZ‘şÅ*kâ‹`ür4Mí÷·1MD¾CE2âÿÖX$ò? ¡ÍÖíšêGb    IEND®B`‚
+------MultipartBoundary--dnPG69SqZ2PnIVapSVrJqkarVLxCwORp10wymJlua5------
