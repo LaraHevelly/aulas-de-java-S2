@@ -6,23 +6,23 @@ public class Exercicio1 {
 
     
     public static void main(String[] args) {
-        Scanner a = new Scanner(System.in);
+        Scanner w = new Scanner(System.in);
         double saldo=0;
         boolean sair= false;
         double metodo;
-        Exercicio1 bb= new Exercicio1();
+        Exercicio1 J= new Exercicio1();
         while(sair==false){
-            bb.menu();
-            int dd= a.nextInt();
+            J.menu();
+            int dd= W.nextInt();
             switch(dd){
                 case 1:
                     
                     break;
                 case 2:
-                  metodo = bb.sacar(saldo);
+                  metodo = J.sacar(saldo);
                   break;
                 case 3:
-                    metodo = bb.depo
+                    metodo = J.depo
             }
             
         }
@@ -52,8 +52,8 @@ public class Exercicio1 {
     public double  sair(double saldo){
         Scanner b = new Scanner(System.in);
         System.out.println("Deseja realmente sair");
-        double dôh = b.nextDouble();
-        saldo = saldo - dôh;
+        double d = b.nextDouble();
+        saldo = saldo - d;
         return saldo;
   
 }
